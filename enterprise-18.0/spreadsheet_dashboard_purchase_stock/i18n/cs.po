@@ -1,0 +1,349 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet_dashboard_purchase_stock
+# 
+# Translators:
+# Wil Odoo, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-25 09:28+0000\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Wil Odoo, 2024\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "% On time deliveries by vendor"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Average global"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Average order"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Average order value"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Average product purchased cost by confirmation week"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Buyer"
+msgstr "Kupující"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Count"
+msgstr "Počet"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Days to Confirm"
+msgstr "Dnů k potvrzení"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Days to Receive"
+msgstr "Dny, které je třeba přijmout"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Delay Report by Vendor"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Fill rate"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Global value"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Late receipts"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Late receipts top 10"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Lead time"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Lead time top 10"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Number of orders"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "On time deliveries"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Order date"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Orders count"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Orders value by vendor"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Orders with reception picking"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Picking Name"
+msgstr "Název dodání"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Previous period"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Product"
+msgstr "Produkt"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Product Category"
+msgstr "Produktová kategorie"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Product level overview"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_purchase_stock.spreadsheet_dashboard_purchase
+msgid "Purchase & Vendor analysis"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Purchase Analysis"
+msgstr "Analýza nákupů"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Purchase Analysis (comparison period)"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Purchase Analysis by Product"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Purchase Analysis by Vendor"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Purchase Analysis orders with receptions"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Purchase Analysis orders with receptions (comparison period)"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Purchase Order by buyer"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Purchase Value by creation confirmation date"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Purchase orders by Total"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Purchased value"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Quantity ordered"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Receipts"
+msgstr "Příjemky"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Selected period"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Stock Overview  by supplier"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Stock Overview by Reference"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Supplier service level"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Top 10 late receipts"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Top purchase orders by value"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Top purchased products"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Top vendors by amount"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Top vendors by lead time in days"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Total value"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Value"
+msgstr "Hodnota"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Vendor"
+msgstr "Dodavatel"
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "Vendor Delay Report by Vendor (comparison period)"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "last period"
+msgstr ""
+
+#. module: spreadsheet_dashboard_purchase_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_purchase_stock/data/files/purchase_and_vendors_dashboard.json:0
+msgid "since last period"
+msgstr "od posledního období"

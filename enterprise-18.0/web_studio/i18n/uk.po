@@ -1,0 +1,3820 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_studio
+#
+# Translators:
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2022
+# Martin Trigaux, 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-16 16:01+0000\n"
+"PO-Revision-Date: 2022-09-22 05:49+0000\n"
+"Last-Translator: Martin Trigaux, 2022\n"
+"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid ""
+"\n"
+"                <p class=\"o_view_nocontent_smiling_face\">\n"
+"                    This is your new action.\n"
+"                </p>\n"
+"                <p>By default, it contains a list and a form view and possibly\n"
+"                    other view types depending on the options you chose for your model.\n"
+"                </p>\n"
+"                <p>\n"
+"                    You can start customizing these screens by clicking on the Studio icon on the\n"
+"                    top right corner (you can also customize this help message there).\n"
+"                </p>\n"
+"            "
+msgstr ""
+"\n"
+"                <p class=\"o_view_nocontent_smiling_face\">\n"
+"                    Це ваша нова дія.\n"
+"                </p>\n"
+"                <p>За замовчуванням, він містить список і вигляд форми та, можливо, \n"
+"інші типи перегляду залежно від параметрів, які ви вибрали для своєї моделі.\n"
+"                </p>\n"
+"                <p>\n"
+"                    Ви можете почати налаштовувати ці екрани, натиснувши піктограму Студії у \n"
+"верхньому правому куті (ви також можете налаштувати там це допоміжне повідомлення).\n"
+"                </p>\n"
+"            "
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor.js:0
+msgid ""
+"\n"
+"    There are no many2one fields related to the current model.\n"
+"    To create a one2many field on the current model, you must first create its many2one counterpart on the model you want to relate to.\n"
+msgstr ""
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid ""
+" <p class=\"o_view_nocontent_empty_report\">\n"
+"                Add a new report\n"
+"            </p>\n"
+"            "
+msgstr ""
+" <p class=\"o_view_nocontent_empty_report\">\n"
+"                Додати новий звіт\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                Add a new automated action\n"
+"            </p>\n"
+"            "
+msgstr ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                Додайте нову автоматизовану дію\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                Add a new filter\n"
+"            </p>\n"
+"            "
+msgstr ""
+" <p class=\"o_view_nocontent_smiling_face\">\n"
+"                Додати новий фільтр\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/report.py:0
+msgid "%s Report"
+msgstr "%s Звіт"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_model_item/new_model_item.xml:0
+msgid "'My model'"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "(t-if=\""
+msgstr "(t-if=\""
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid ""
+"<p class=\"o_view_nocontent_smiling_face\">\n"
+"                Add a new access control list\n"
+"            </p>\n"
+"            "
+msgstr ""
+"<p class=\"o_view_nocontent_smiling_face\">\n"
+"                Додати новий список контролю доступу\n"
+"            </p>\n"
+"            "
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_editor_model.js:0
+msgid "A field with the same name already exists."
+msgstr "Поле з такою назвою вже існує."
+
+#. module: web_studio
+#: model:ir.model.constraint,message:web_studio.constraint_studio_approval_entry_uniq_combination
+msgid "A rule can only be approved/rejected once per record."
+msgstr "Правило можна схвалити/відхилити лише один раз на запис."
+
+#. module: web_studio
+#: model:ir.model.constraint,message:web_studio.constraint_studio_approval_rule_method_or_action_together
+msgid "A rule must apply to an action or a method (but not both)."
+msgstr "Правило має застосовуватися до дії або методу (але не до обох)."
+
+#. module: web_studio
+#: model:ir.model.constraint,message:web_studio.constraint_studio_approval_rule_method_or_action_not_null
+msgid "A rule must apply to an action or a method."
+msgstr "Правило має застосовуватися до дії або методу."
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_ir_model__abstract
+msgid "Abstract"
+msgstr "Виписка"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+msgid "Access Control"
+msgstr "Контроль доступу"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "Access Control Lists"
+msgstr "Списки контролю доступу"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_res_groups
+msgid "Access Groups"
+msgstr "Групи доступу"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/pivot/pivot_editor_sidebar.xml:0
+msgid "Access records from cell"
+msgstr "Дозволити записи з клітинки"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor_sidebar.xml:0
+msgid "Access records from graph"
+msgstr "Дозволити записи з графіку"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_mail_activity_type__category
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__action_id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__action_id
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Action"
+msgstr "Дія"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_act_window
+msgid "Action Window"
+msgstr "Вікно дії"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr "Перегляд вікна дії"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+msgid "Action to approve:"
+msgstr "Дія для підтвердження:"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.xml:0
+msgid "Action's title"
+msgstr "Назва дій"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_mail_activity_type__category
+msgid "Actions may trigger specific behavior like opening calendar view or automatically mark as done when a document is uploaded"
+msgstr "Дії повинні запустити конкретну дію, таку як відкриття календаря або автоматичне позначення як зроблено після завантаження документа."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.xml:0
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/map_new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/new_view_dialog.xml:0
+msgid "Activate View"
+msgstr "Активувати перегляд"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__active
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Active"
+msgstr "Активно"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: code:addons/web_studio/static/src/studio_service.js:0
+#: model:ir.model,name:web_studio.model_mail_activity
+msgid "Activity"
+msgstr "Дія"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_mail_activity_type
+msgid "Activity Type"
+msgstr "Тип дії"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.js:0
+msgid "Activity view unavailable on this model"
+msgstr "Перегляд дії недоступний на цій моделі"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor_sidebar.js:0
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Add"
+msgstr "Додати"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/chatter_container.xml:0
+msgid "Add Chatter Widget"
+msgstr "Додати віджет чату"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_renderer/form_editor_renderer_components.xml:0
+msgid "Add Picture"
+msgstr "Додати зображення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/new_button_box_dialog.js:0
+msgid "Add a Button"
+msgstr "Додати кнопку"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
+msgid "Add a description..."
+msgstr "Додати опис..."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_renderer/form_editor_renderer_components.xml:0
+msgid "Add a pipeline status bar"
+msgstr "Додайте рядок стану гістограми конвеєра "
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/kanban/kanban_editor_compiler.js:0
+msgid "Add a priority"
+msgstr "Додайте пріоритет"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
+msgid "Add an approval rule"
+msgstr "Додати на правило затвердження"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/kanban/kanban_editor_compiler.js:0
+msgid "Add an avatar"
+msgstr "Додати аватар"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Add details to your records with an embedded list view"
+msgstr "Додайте деталі до своїх записів за допомогою вбудованого списку"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Add in the print menu"
+msgstr "Додати в меню друку"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/selection_content_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+msgid "Add new value"
+msgstr "Додати нове значення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.js:0
+msgid "Add record at the bottom"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.js:0
+msgid "Add record on top"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+msgid "Add selection"
+msgstr "Додати вибір"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/kanban/kanban_editor_compiler.js:0
+msgid "Add tags"
+msgstr "Додайте теги"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/map/map_editor_sidebar.xml:0
+msgid "Additional Fields"
+msgstr "Додаткові поля"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Address Block"
+msgstr "Адресний блок"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_type_properties.js:0
+msgid "Aggregate"
+msgstr "Сукупність"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Alignment"
+msgstr "Вирівнювання"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/calendar/calendar_editor_sidebar.xml:0
+msgid "All Day"
+msgstr "Весь день"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "All set? You are just one click away from <b>generating your first app</b>."
+msgstr "Усе готово? Ви всього за один клік від <b>від створення першого модуля</b>."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Amount total"
+msgstr "Сума всього"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Amount untaxed"
+msgstr "Неоподатковувана сума"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+msgid "Approval"
+msgstr "Схвалення"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "Approval Entries"
+msgstr "Записи затвердження"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
+msgid "Approval Group"
+msgstr "Групи затвердження"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__rule_id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__rule_id
+msgid "Approval Rule"
+msgstr "Правило затвердження"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Approval Rules"
+msgstr "Правила затвердження"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
+msgid "Approvals"
+msgstr "Затвердження"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "Approvals can only be done on a method or an action, not both."
+msgstr "Схвалення можна робити лише для методу чи дії, а не для обох."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+msgid "Approve"
+msgstr "Затвердити"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__approved
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "Approved"
+msgstr "Затверджено"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.notify_approval
+msgid "Approved as"
+msgstr "Затверджено як"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+msgid "Approved on"
+msgstr "Затверджено на"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__user_id
+msgid "Approved/rejected by"
+msgstr "Затвердив/відхилив"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Archive deprecated records"
+msgstr "Архівуйте застарілі записи"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_form_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Archived"
+msgstr "Заархівовано"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Archiving"
+msgstr "Архівування"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_properties.js:0
+msgid "Are you sure you want to remove the selection values?"
+msgstr "Ви впевнені, що хочете видалити значення вибору?"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/sidebar_properties_toolbox/sidebar_properties_toolbox.js:0
+msgid "Are you sure you want to remove this %s from the view?"
+msgstr "Ви впевнені, що хочете видалити це %s з цього перегляду?"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.js:0
+msgid "Are you sure you want to reset the background image?"
+msgstr "Ви впевнені, що хочете редагувати фонове зображення?"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/edition_flow.js:0
+msgid ""
+"Are you sure you want to restore the default view?\r\n"
+"All customization done with studio on this view will be lost."
+msgstr "Ви впевнені, що хочете відновити перегляд за замовчуванням?\rУсі налаштування, зроблені за допомогою студії на цьому перегляді, будуть втрачені ."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "As expression"
+msgstr "Як вираз"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor.js:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.js:0
+msgid "Ascending"
+msgstr "Висхідний"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Assign a responsible to each record"
+msgstr "Призначте відповідального на кожен запис"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Assign dates and visualize records in a calendar"
+msgstr "Призначайте дати та візуалізуйте записи в календарі"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Attach a picture to a record"
+msgstr "Додайте зображення на запис"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.xml:0
+msgid "Autocompletion Fields"
+msgstr "Поля автозаповнення"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_base_automation
+msgid "Automated Action"
+msgstr "Автоматизована дія"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "Automated Actions"
+msgstr "Дія"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+msgid "Automations"
+msgstr "Автоматизація"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_type_properties.js:0
+msgid "Average"
+msgstr "Всередньому"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.js:0
+msgid "Average of %s"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+msgid "Awaiting approval"
+msgstr "Очікує затвердження"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor.js:0
+msgid "Backwards"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor.js:0
+msgid "Bar"
+msgstr "Гістограма"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_base
+msgid "Base"
+msgstr "База"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/views/kanban_report/new_report_dialog.js:0
+msgid "Blank"
+msgstr "Бланк"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks_registry.js:0
+msgid "Block"
+msgstr "Блокувати"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "Blocked"
+msgstr "Заблоковано"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_properties.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Bold"
+msgstr "Жирний"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Bordered"
+msgstr "З рамкою"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Borderless"
+msgstr "Без кордонів"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/views/kanban_report/new_report_dialog.js:0
+msgid "Business header/footer"
+msgstr "Верхній колонтитул/нижній колонтитул компанії "
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/report_editor_sidebar.js:0
+msgid "By default: "
+msgstr "За замовчуванням: "
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: code:addons/web_studio/static/src/studio_service.js:0
+msgid "Calendar"
+msgstr "Календар"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/form_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/kanban/kanban_editor_sidebar/kanban_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.xml:0
+msgid "Can Create"
+msgstr "Можна створити"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/form_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.xml:0
+msgid "Can Delete"
+msgstr "Можна видалити"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/form_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.xml:0
+msgid "Can Edit"
+msgstr "Можна редагувати"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__can_validate
+msgid "Can be approved"
+msgstr "Можна затверджувати"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/app_menu_editor/app_menu_editor.xml:0
+#: code:addons/web_studio/static/src/client_action/editor/new_model_item/new_model_item.xml:0
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/map_new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/studio_home_menu/icon_creator_dialog/icon_creator_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/components/field_selector_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/new_button_box_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/field_configuration.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/selection_content_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Categorize records with custom tags"
+msgstr "Категоризуйте записи за допомогою спеціальних тегів"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.xml:0
+msgid "Change Background"
+msgstr "Змінити тло"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/rainbow_effect.xml:0
+msgid "Change Image"
+msgstr "Змінити зображення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Change the <b>background</b>, make it yours."
+msgstr "Змініть <b>фонове зображення</b>, зробіть його вашим."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Chatter"
+msgstr "Чатер"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "CheckBox"
+msgstr ""
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_ir_model_data__studio
+msgid "Checked if it has been edited with Studio."
+msgstr "Позначено, якщо було відредаговано зі Студією."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+msgid "Choose an app name"
+msgstr "Виберіть назву додатка"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor.js:0
+msgid "Churn"
+msgstr "Втрата"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Class"
+msgstr "Клас"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+msgid "Clear"
+msgstr "Очистити"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Click here."
+msgstr "Натисніть тут."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Click to edit messaging features on your model."
+msgstr "Натисніть, щоб змінити функції обміну повідомленнями у вашій моделі."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/studio_approval.xml:0
+msgid "Click to see all approval rules."
+msgstr "Натисніть, щоб переглянути всі правила затвердження."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+#: code:addons/web_studio/static/src/client_action/navbar/navbar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/xml_editor/xml_editor.xml:0
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+msgid "Close"
+msgstr "Закрити"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: code:addons/web_studio/static/src/studio_service.js:0
+msgid "Cohort"
+msgstr "Когорта"
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/calendar/calendar_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+msgid "Color"
+msgstr "Колір"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Colors"
+msgstr "Кольори"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks_registry.js:0
+msgid "Column"
+msgstr "Колонка"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/pivot/pivot_editor_sidebar.xml:0
+msgid "Column grouping"
+msgstr "Групування колонок"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/form_editor_sidebar.js:0
+msgid "Columns"
+msgstr "Стовпці"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Compact"
+msgstr "Компактний"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_res_company
+msgid "Companies"
+msgstr "Компанії"
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Company"
+msgstr "Компанія"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/form_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.xml:0
+msgid "Components"
+msgstr "Компоненти"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/property/property.xml:0
+msgid "Conditional"
+msgstr "Умовно"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__conditional
+msgid "Conditional Rule"
+msgstr "Умовне правило"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/models/ir_ui_menu.py:0
+msgid "Configuration"
+msgstr "Налаштування"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_model_item/new_model_item.xml:0
+msgid "Configure Model"
+msgstr "Налаштувати модель"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/app_menu_editor/app_menu_editor.xml:0
+#: code:addons/web_studio/static/src/client_action/studio_home_menu/icon_creator_dialog/icon_creator_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/components/field_selector_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/new_button_box_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/field_configuration.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/selection_content_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.js:0
+msgid "Confirmation"
+msgstr "Підтвердження"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/map_new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/map/map_editor_sidebar.xml:0
+msgid "Contact Field"
+msgstr "Поле контакту"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/map_new_view_dialog.js:0
+msgid "Contact Field Required"
+msgstr "Потрібне поле контакту"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Contact details"
+msgstr "Деталі контакту"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_type_properties.js:0
+msgid "Context"
+msgstr "Контекст"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Continue to configure some typical behaviors for your new type of object."
+msgstr "Продовжуйте налаштовувати деякі типові поведінки для вашого нового типу об’єкта."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.js:0
+msgid "Could not change the background"
+msgstr "Неможливо змінити фоновий колір"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/menu_creator/menu_creator.js:0
+msgid "Create Menu"
+msgstr "Створити меню"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_model_item/new_model_item.js:0
+msgid "Create Model"
+msgstr "Створти модель"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_model_item/new_model_item.js:0
+msgid "Create a new Model"
+msgstr "Створити нову модель"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Create your <b>selection values</b> (e.g.: Romance, Polar, Fantasy, etc.)"
+msgstr "Створіть ваші <b>значення вибору</b> (напр.: Романтизм, Полярний, Фентезі, і т.д..)"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+msgid "Create your App"
+msgstr "Створіть ваш додаток"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+msgid "Create your app"
+msgstr "Створіть ваш додаток"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+msgid "Create your first menu"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/menu_creator/menu_creator.js:0
+msgid "Create your menu"
+msgstr ""
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__create_uid
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__create_uid
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__create_date
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__create_date
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.js:0
+msgid "Creating this type of view is not currently supported in Studio."
+msgstr "Створення цього типу перегляду наразі не підтримується в Студії."
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_menu.py:0
+msgid "Custom Configuration"
+msgstr "Кастомні налаштування"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_fields
+msgid "Custom Fields"
+msgstr "Кастомні поля"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_models
+msgid "Custom Models"
+msgstr "Кастомні моделі"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_reports
+msgid "Custom Reports"
+msgstr "Кастомні звіти"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Custom Sorting"
+msgstr "Кастомне сортування"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__custom_views
+msgid "Custom Views"
+msgstr "Кастомні перегляди"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Custom color"
+msgstr "Спеціальний колір"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "Custom field names cannot contain double underscores."
+msgstr "Назви спеціальних полів не можуть містити подвійне підкреслення."
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom fields:"
+msgstr "Кастомні поля:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom models:"
+msgstr "Кастомні моделі:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom reports:"
+msgstr "Кастомні звіти:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Custom views:"
+msgstr "Кастомні перегляди:"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.view_base_module_uninstall_studio
+msgid "Customization made with Studio will be permanently lost"
+msgstr "Кастомізація, виконана зі Студією, буде назавжди втрачена"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.xml:0
+msgid "Customizations"
+msgstr "Налаштування"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Data table"
+msgstr "Панель даних"
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Date"
+msgstr "Дата"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Date & Calendar"
+msgstr "Дата та календар"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Date range & Gantt"
+msgstr "Діапазон дат і діаграма Ганта"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Datetime"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor.js:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.js:0
+msgid "Day"
+msgstr "День"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+msgid "Day Precision"
+msgstr "Точність дня"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Decimal"
+msgstr "Десятковий"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/calendar/calendar_editor_sidebar.xml:0
+msgid "Default Display Mode"
+msgstr "Режим дисплею за замовчуванням"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/kanban/kanban_editor_sidebar/kanban_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.xml:0
+msgid "Default Group By"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+msgid "Default Group by"
+msgstr "Згруповано за замовчуванням"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+msgid "Default Scale"
+msgstr "Масштаб за замовчуванням"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor.js:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/sidebar_view_toolbox/sidebar_view_toolbox.xml:0
+#: model:ir.model,name:web_studio.model_ir_default
+msgid "Default Values"
+msgstr "Типові значення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_properties.xml:0
+msgid "Default value"
+msgstr "Значення за замовчуванням"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.xml:0
+msgid "Default view"
+msgstr "Перегляд за замовчуванням"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Define start/end dates and visualize records in a Gantt chart"
+msgstr "Визначте дати початку/закінчення та візуалізуйте записи на діаграмі Ганта"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/calendar/calendar_editor_sidebar.xml:0
+msgid "Delay Field"
+msgstr "Поле затримки"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+msgid "Delete"
+msgstr "Видалити"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor.js:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.js:0
+msgid "Descending"
+msgstr "За спаданням"
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
+msgid "Description"
+msgstr "Опис"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/icon_creator/icon_creator.xml:0
+msgid "Design your Icon"
+msgstr "Створіть свою іконку"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.xml:0
+msgid "Disable View"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/selection_content_dialog.xml:0
+msgid "Discard changes"
+msgstr ""
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__display_name
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__display_name
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+msgid "Display Total row"
+msgstr "Відображати рядок суми"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+msgid "Display Unavailability"
+msgstr "Відображати недоступність"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/kanban/kanban_editor_record.js:0
+msgid "Do you want to add a dropdown with colors?"
+msgstr "Ви хочете додати спадне меню з кольорами?"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_type_properties.js:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__domain
+msgid "Domain"
+msgstr "Домен"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "Done"
+msgstr "Виконано"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Drag & drop <b>another field</b>. Let’s try with a <i>selection field</i>."
+msgstr "Перетягування <b>іншого поля</b>. Давайте спробуємо з <i>вибраним полем</i>."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/app_menu_editor/app_menu_editor.xml:0
+msgid "Drag a menu to the right to create a sub-menu"
+msgstr "Перетягніть меню вправо, щоб створити під-меню"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/report_editor.js:0
+msgid "Drag building block here"
+msgstr "Перетягніть блок сюди"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "Dropdown Menu"
+msgstr "Спадне меню"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+msgid "Duplicate"
+msgstr "Дублювати"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "Edit"
+msgstr "Редагувати"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/components/field_content_overlay.js:0
+msgid "Edit %s view"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/studio_home_menu/icon_creator_dialog/icon_creator_dialog.js:0
+msgid "Edit Application Icon"
+msgstr "Редагувати іконку додатку"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/app_menu_editor/app_menu_editor.js:0
+#: code:addons/web_studio/static/src/client_action/editor/app_menu_editor/app_menu_editor.xml:0
+msgid "Edit Menu"
+msgstr "Редагувати меню"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+msgid "Edit Value"
+msgstr "Редагувати значення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_properties.xml:0
+msgid "Edit Values"
+msgstr "Редагувати значення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/app_menu_editor/app_menu_editor.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+msgid "Edit selection"
+msgstr "Редагувати вибір"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/xml_editor/xml_editor.js:0
+msgid "Editing a built-in file through this editor is not advised, as it will prevent it from being updated during future App upgrades."
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/selection_content_dialog.xml:0
+msgid "Editing item:"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Else"
+msgstr "Інше"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "Email"
+msgstr "Ел. пошта"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/chatter_properties/chatter_properties.xml:0
+msgid "Email Alias"
+msgstr "Псевдонім ел. пошти"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_mail_template
+msgid "Email Templates"
+msgstr "Шаблони електронних листів"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_mail_thread
+msgid "Email Thread"
+msgstr "Ланцюжки повідомлень"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.xml:0
+msgid "Empty List Message"
+msgstr "Пустий список повідомлень"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.xml:0
+msgid "Enable Mass Editing"
+msgstr "Увімкніть масове редагування"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/map/map_editor_sidebar.xml:0
+msgid "Enable Routing"
+msgstr "Увімкнути окурглення"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "End Date"
+msgstr "Кінцева дата"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__entry_ids
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_form_view
+msgid "Entries"
+msgstr "Записи"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/studio_view.js:0
+#: code:addons/web_studio/static/src/client_action/view_editor/view_editor_model.js:0
+#: code:addons/web_studio/static/src/legacy/js/common/abstract_editor_manager.js:0
+msgid "Error"
+msgstr "Помилка"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Esc expression"
+msgstr "Вираз Esc"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.xml:0
+msgid "Existing Fields"
+msgstr "Існуючі поля"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/menu_creator/menu_creator.js:0
+msgid "Existing Model"
+msgstr "Існуюча модель"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.xml:0
+msgid "Export"
+msgstr "Експорт"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/views/kanban_report/new_report_dialog.js:0
+msgid "External"
+msgstr "Зовнішній"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/rainbow_effect.xml:0
+msgid "Fadeout Speed"
+msgstr "Знизити швидкість"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/rainbow_effect.js:0
+msgid "Fast"
+msgstr "Швидко"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.xml:0
+msgid "Favourites"
+msgstr "Закладки"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/components/field_selector_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Field"
+msgstr "Поле"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Field & Label"
+msgstr "Поле та мітка"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Field Column"
+msgstr "Колонка поля"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/selection_content_dialog.js:0
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+msgid "Field Properties"
+msgstr "Властивості поля"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Field expression"
+msgstr "Вираз поля"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Field in Cell"
+msgstr "Поле в клітинці"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/field_configuration.js:0
+msgid "Field properties: %s"
+msgstr ""
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_fields
+msgid "Fields"
+msgstr "Поля"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+msgid "File"
+msgstr "Файл"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "Filename for %s"
+msgstr "Назва файлу для %s"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.js:0
+msgid "Filter"
+msgstr "Фільтр"
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+msgid "Filter Rules"
+msgstr "Правила фільтрації"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/field_configuration.xml:0
+msgid "Filter label"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.xml:0
+#: model:ir.model,name:web_studio.model_ir_filters
+msgid "Filters"
+msgstr "Фільтри"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_renderer/form_editor_renderer_components.js:0
+msgid "First Status"
+msgstr "Перший статус"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor_sidebar.xml:0
+msgid "First dimension"
+msgstr "Перший вимір"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Font style"
+msgstr "Стиль шрифту"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Foreach expression"
+msgstr "У кожному виразі"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: code:addons/web_studio/static/src/studio_service.js:0
+msgid "Form"
+msgstr "Форма"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/xml_editor/xml_editor.xml:0
+msgid "Format"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor.js:0
+msgid "Forward"
+msgstr "Попереду"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: code:addons/web_studio/static/src/studio_service.js:0
+msgid "Gantt"
+msgstr "Діаграма Ґанта"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.js:0
+msgid "General views"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/new_view_dialog.js:0
+msgid "Generate %s View"
+msgstr "Створити %s перегляд"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Get contact, phone and email fields on records"
+msgstr "Отримайте поля контактів, телефону та електронної пошти в записах"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Go on, you are almost done!"
+msgstr "Продовжуйте, ви майже закінчили!"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Good job! To add more <b>fields</b>, come back to the <i>Add tab</i>."
+msgstr "Хороша робота! Щоб додати більше <b>полів</b>, поверніться до <i>вкладки Додати</i>."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+#: model:ir.model.fields.selection,name:web_studio.selection__mail_activity_type__category__grant_approval
+#: model:mail.activity.type,name:web_studio.mail_activity_data_approve
+msgid "Grant Approval"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: code:addons/web_studio/static/src/studio_service.js:0
+msgid "Graph"
+msgstr "Графік"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.xml:0
+msgid "Graph View"
+msgstr "Перегляд графіка"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/rainbow_effect.xml:0
+msgid "Great !"
+msgstr "Чудово !"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.xml:0
+msgid "Grid View"
+msgstr "Перегляд сітки"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__group_id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__group_id
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Group"
+msgstr "Група"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.xml:0
+msgid "Group by"
+msgstr "Групувати за"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.xml:0
+msgid "Grouping is not applied while in Studio to allow editing."
+msgstr ""
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "Groups used in approval rules must have an external identifier."
+msgstr "Групи, які використовуються в правилах затвердження, повинні мати зовнішній ідентифікатор."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "HTML"
+msgstr ""
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_http
+msgid "HTTP Routing"
+msgstr "Маршрутизація HTTP"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.js:0
+msgid "Half Day"
+msgstr "Півдня"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.js:0
+msgid "Half Hour"
+msgstr "Пів години"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Heading1"
+msgstr "Заголовок1"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Heading2"
+msgstr "Заголовок2"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Heading3"
+msgstr "Заголовок3"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Heading4"
+msgstr "Заголовок4"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Heading5"
+msgstr "Заголовок5"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Heading6"
+msgstr "Заголовок6"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_properties.xml:0
+msgid "Help Tooltip"
+msgstr "Виринаюча підказка"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Here, you can <b>name</b> your field (e.g. Book reference, ISBN, Internal Note, etc.)."
+msgstr "Тут ви можете <b>назвати</b> ваше поле (наприклад, Довідник книги, ISBN, внутрішня примітка тощо.)."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/map/map_editor_sidebar.xml:0
+msgid "Hide Address"
+msgstr "Приховати адресу"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/map/map_editor_sidebar.xml:0
+msgid "Hide Name"
+msgstr "Приховати назву"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_properties.js:0
+msgid "Hide by default"
+msgstr "Сховати за замовчуванням"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "High Priority"
+msgstr "Високий пріоритет"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_res_company__background_image
+msgid "Home Menu Background Image"
+msgstr "Фонове зображення головного меню"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.js:0
+msgid "Hour"
+msgstr "Година"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "How do you want to <b>name</b> your app? Library, Academy, …?"
+msgstr "Як ви хочете <b>назвати</b> ваш додаток? Бібліотека, Академія, …?"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "How do you want to name your first <b>menu</b>? My books, My courses?"
+msgstr "Як ви хочете назвати ваше перше <b>меню</b>? Мої книги, Мої курси?"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "I bet you can <b>build an app</b> in 5 minutes. Ready for the challenge?"
+msgstr "Ми впевнені, що ви зможете <b>створити додаток</b> за 5 хвилин. Готові до випробування?"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__id
+msgid "ID"
+msgstr "ID"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/new_button_box_dialog.xml:0
+msgid "Icon"
+msgstr "Значок"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_studio_approval_rule__domain
+msgid "If set, the rule will only apply on records that match the domain."
+msgstr "Якщо встановлено, правило застосовуватиметься лише до записів, які відповідають домену."
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_studio_approval_rule__exclusive_user
+msgid "If set, the user who approves this rule will not be able to approve other rules for the same record"
+msgstr "Якщо встановлено, користувач, який затверджує це правило, не зможе схвалити інші правила для того самого запису"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "If you don't want to create a new model, an existing model should be selected."
+msgstr "Якщо ви не хочете створювати нову модель, слід вибрати існуючу."
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Image"
+msgstr "Зображення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.xml:0
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+msgid "Import"
+msgstr "Імпорт"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "In Progress"
+msgstr "В процесі"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/field_configuration.js:0
+msgid "In order to use a monetary field, you need a currency field on the model. Do you want to create a currency field first? You can make this field invisible afterwards."
+msgstr "Для того, щоб використовувати грошове поле, потрібне поле валюти область на моделі. Створити перше поле валюти? Після цього ви можете зробити це поле невидимим."
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_ir_ui_menu__is_studio_configuration
+msgid "Indicates that this menu was created by Studio to hold configuration sub-menus"
+msgstr "Вказує, що це меню було створено через модуль Студія для зберігання підменю конфігурації"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks_registry.js:0
+msgid "Inline"
+msgstr "Вбудований"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Integer"
+msgstr "Ціле число"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/views/kanban_report/new_report_dialog.js:0
+msgid "Internal"
+msgstr "Внутрішнє"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor_sidebar.xml:0
+msgid "Interval"
+msgstr "Інтервал"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "Invalid studio_approval %s in button"
+msgstr "Недійсний studio_approval %s на кнопці"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/modifiers/modifiers_properties.xml:0
+msgid "Invisible"
+msgstr "Прихований"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_base_module_uninstall__is_studio
+msgid "Is Studio"
+msgstr "Це Студія"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.xml:0
+msgid "Is default view"
+msgstr "Перегляд за замовчуванням"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Italic"
+msgstr "Курсив"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: code:addons/web_studio/static/src/studio_service.js:0
+msgid "Kanban"
+msgstr "Канбан"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "Kanban State"
+msgstr "Стан канбану"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/new_button_box_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/group_properties/group_properties.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/page_properties/page_properties.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/selection_content_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_properties.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+msgid "Label"
+msgstr "Мітка"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__write_uid
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__write_uid
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє оновив"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__write_date
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__write_date
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Let’s check the result. Close Odoo Studio to get an <b>overview of your app</b>."
+msgstr "Давайте перевіримо результат. Закрити Студію Odoo, щоб отримати<b>загальний огляд вашого додатку</b>."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__exclusive_user
+msgid "Limit approver to this rule"
+msgstr "Обмежити схвалення цього правила"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/limit_group_visibility/limit_group_visibility.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+msgid "Limit visibility to groups"
+msgstr "Обмеження видимості до груп"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor.js:0
+msgid "Line"
+msgstr "Рядок"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Lines"
+msgstr "Рядки"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__mail_activity_id
+msgid "Linked Activity"
+msgstr "Пов'язана дія"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: code:addons/web_studio/static/src/studio_service.js:0
+msgid "List"
+msgstr "Список"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.xml:0
+msgid "List View"
+msgstr "Перегляд списку"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor.xml:0
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Manually sort records in the list view"
+msgstr "Сортувати записи вручну у перегляді списку"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Many2Many"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Many2One"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: code:addons/web_studio/static/src/studio_service.js:0
+msgid "Map"
+msgstr "Карта"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Margins"
+msgstr "Маржі"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor_sidebar.xml:0
+msgid "Measure"
+msgstr "Міра"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor_sidebar.xml:0
+msgid "Measure Field"
+msgstr "Поле вимірювання"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/pivot/pivot_editor_sidebar.xml:0
+msgid "Measures"
+msgstr "Міри"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/rainbow_effect.js:0
+msgid "Medium"
+msgstr "Канал"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_ui_menu
+msgid "Menu"
+msgstr "Меню"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/rainbow_effect.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__message
+msgid "Message"
+msgstr "Повідомлення"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__method
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__method
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Method"
+msgstr "Метод"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/views/kanban_report/new_report_dialog.js:0
+msgid "Minimal header/footer"
+msgstr "Мінімальний верхній/нижній колонтитул"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor_sidebar.xml:0
+msgid "Mode"
+msgstr "Режим"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__model_id
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
+msgid "Model"
+msgstr "Модель"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_access
+msgid "Model Access"
+msgstr "Доступ до моделі"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model_data
+msgid "Model Data"
+msgstr "Дані"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__model
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__model_name
+msgid "Model Name"
+msgstr "Назва моделі"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_model_item/new_model_item.xml:0
+msgid "Model name"
+msgstr ""
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_model
+msgid "Models"
+msgstr "Моделі"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_module_module
+msgid "Module"
+msgstr "Модуль"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_base_module_uninstall
+msgid "Module Uninstall"
+msgstr "Видалення модуля"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.simplified_form_view_import_module
+msgid "Module file (.zip)"
+msgstr "Файл модуля (.zip)"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Monetary"
+msgstr "Грошовий"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Monetary value"
+msgstr "Грошова вартість"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor.js:0
+msgid "Month"
+msgstr "Місяць"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+msgid "Month Precision"
+msgstr "Точність місяця"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/sidebar_properties_toolbox/sidebar_properties_toolbox.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/sidebar_view_toolbox/sidebar_view_toolbox.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+msgid "More"
+msgstr "Більше"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Multine Text"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.js:0
+msgid "Multiple records views"
+msgstr ""
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "My %s"
+msgstr "Мій %s"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/new_button_box_dialog.xml:0
+msgid "My Button"
+msgstr "Моя кнопка"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "My entries"
+msgstr "Мої записи"
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__name
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "New"
+msgstr "Новий"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor.js:0
+msgid "New %s"
+msgstr ""
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "New Approval Entry"
+msgstr "Новий запис затвердження"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/components/field_selector_dialog.xml:0
+msgid "New Field"
+msgstr "Нове поле"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.xml:0
+msgid "New Fields"
+msgstr "Нові поля"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor.js:0
+msgid "New Filter"
+msgstr "Новий фільтр"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "New Lines"
+msgstr "Нові рядки"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/app_menu_editor/app_menu_editor.xml:0
+msgid "New Menu"
+msgstr "Нове меню"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_model_item/new_model_item.xml:0
+#: code:addons/web_studio/static/src/client_action/menu_creator/menu_creator.js:0
+msgid "New Model"
+msgstr "Нова модель"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_renderer/form_editor_renderer_components.js:0
+msgid "New Page"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/new_button_box_dialog.js:0
+msgid "New button"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.xml:0
+msgid "Next"
+msgstr "Наступний"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Nicely done! Let’s build your screen now; <b>drag</b> a <i>text field</i> and <b>drop</b> it in your view, on the right."
+msgstr "Чудово зробили! Створимо ваш екран зараз;<b>візьміть</b>  <i>текстове поле</i> та <b>перетягніть</b> у ваш перегляд справа."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_type_properties.js:0
+msgid "No aggregation"
+msgstr ""
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "No approval found for this rule, record and user combination."
+msgstr "Не знайдено схвалення для цього правила, запису та комбінації користувача."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/views/kanban_report/new_report_dialog.js:0
+msgid "No header/footer"
+msgstr "Немає верхнього/нижнього колонтитулу"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor.js:0
+msgid "No related many2one fields found"
+msgstr "Не знайдено пов'язаних полів many2one"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/report.py:0
+msgid "No view found for the given report!"
+msgstr "Не знайдено жодного перегляду наданого звіту!"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/rainbow_effect.js:0
+msgid "None"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Normal"
+msgstr "Звичайний"
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Notes"
+msgstr "Примітки"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Now you’re on your own. Enjoy your <b>super power</b>."
+msgstr "Тепер ви самостійні. Насолоджуйся своєю <b>супер силою</b>."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Now, customize your icon. Make it yours."
+msgstr "Тепер налаштуйте свій значок. Зробіть це самостійно."
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__entries_count
+msgid "Number of Entries"
+msgstr "Кількість записів"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+msgid "Odoo Studio"
+msgstr "Студія Odoo"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/systray_item/systray_item.xml:0
+msgid "Odoo Studio Icon"
+msgstr "Іконка Студії Odoo"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Offset"
+msgstr "Змістити"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "One2Many"
+msgstr ""
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "Only %s members can approve this rule."
+msgstr "Лише %s члени можуть затверджувтаи це правило."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "Only groups with an external ID can be used here. Please choose another group or assign manually an external ID to this group."
+msgstr "Тут можна використовувати лише групи із зовнішнім ID. Виберіть іншу групу або призначте вручну зовнішній ID для цієї групи."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.js:0
+msgid "Open form view"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_properties.xml:0
+msgid "Optional"
+msgstr "Необов'язково"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Options"
+msgstr "Опції"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.xml:0
+msgid "Order"
+msgstr "Замовлення"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.act_report_xml_view_kanban
+msgid "PDF file"
+msgstr "PDF-файл"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_report_paperformat
+msgid "Paper Format Config"
+msgstr "Налаштування паперового формату"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Paper format"
+msgstr "Формат сторінки"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/menu_creator/menu_creator.js:0
+msgid "Parent Menu"
+msgstr "Попереднє меню"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "Phone"
+msgstr "Телефон"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Picture"
+msgstr "Зображення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor.js:0
+msgid "Pie"
+msgstr "Кругова"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Pipeline stages"
+msgstr "Етапи конвеєру"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_renderer/form_editor_renderer_components.js:0
+msgid "Pipeline status bar"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: code:addons/web_studio/static/src/studio_service.js:0
+msgid "Pivot"
+msgstr "Зведена таблиця"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_type_properties.js:0
+msgid "Placeholder"
+msgstr "Заповнювач"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Please specify a field name for the selected model."
+msgstr "Будь ласка, вкажіть назву поля для вибраної моделі."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "Please specify a field."
+msgstr "Будь ласка, визначте поле."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/kanban/kanban_editor_record.xml:0
+msgid "Preview is not available"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.xml:0
+msgid "Previous"
+msgstr "Попередній"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_manager.xml:0
+msgid "Print"
+msgstr "Друк"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Printed Report Name"
+msgstr "Назва друкованого звіту"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Priority"
+msgstr "Пріоритет"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "Private methods cannot be restricted (since they cannot be called remotely, this would be useless)."
+msgstr "Приватні методи не можуть бути обмежені (оскільки їх неможливо викликати віддалено, це було б марно)."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor_sidebar.js:0
+msgid "Properties"
+msgstr "Властивості"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.js:0
+msgid "Quarter Hour"
+msgstr "Чверть години"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/calendar/calendar_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/kanban/kanban_editor_sidebar/kanban_editor_sidebar.xml:0
+msgid "Quick Create"
+msgstr "Швидке створення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/calendar/calendar_editor_sidebar.xml:0
+msgid "Quick Create Field"
+msgstr "Шивдке створення поля"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_qweb
+msgid "Qweb"
+msgstr "Qweb"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
+msgid "Rainbow Effect"
+msgstr "Ефект веселки"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
+msgid "Rainbow Man"
+msgstr "Веселка"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/modifiers/modifiers_properties.xml:0
+msgid "Readonly"
+msgstr ""
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "Ready"
+msgstr "Підготовлено"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_form_view
+msgid "Record"
+msgstr "Запис"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__res_id
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_request__res_id
+msgid "Record ID"
+msgstr "ID запису"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.xml:0
+msgid "Redo"
+msgstr "Повенути дію"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_entry__reference
+msgid "Reference"
+msgstr "Референс"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+msgid "Reject"
+msgstr "Відхилити"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "Rejected"
+msgstr "Відхилено"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.notify_approval
+msgid "Rejected as"
+msgstr "Відхилено як"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+msgid "Rejected on"
+msgstr "Відхилено на"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Related Field"
+msgstr "Пов'язане поле"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Related expression"
+msgstr "Пов'язаний вираз"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+msgid "Relation:"
+msgstr "Зв'язок:"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Reload from attachment"
+msgstr "Перезавантажити зі вкладення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/sidebar_properties_toolbox/sidebar_properties_toolbox.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+msgid "Remove from View"
+msgstr "Видалити з перегляду"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/app_menu_editor/app_menu_editor.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+msgid "Remove selection"
+msgstr "Видалити вибір"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Report"
+msgstr "Звіт"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_report
+msgid "Report Action"
+msgstr "Дія звіту"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.js:0
+msgid "Reporting views"
+msgstr ""
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/controllers/main.py:0
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+msgid "Reports"
+msgstr "Звіти"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/modifiers/modifiers_properties.xml:0
+msgid "Required"
+msgstr "Обов'язково"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/navbar/home_menu_customizer/home_menu_customizer.xml:0
+msgid "Reset Default Background"
+msgstr "Скинути фонове зображення за замовчуванням"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/rainbow_effect.xml:0
+msgid "Reset Image"
+msgstr "Скинути зображення"
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
+#: model:ir.model.fields,field_description:web_studio.field_studio_approval_rule__responsible_id
+msgid "Responsible"
+msgstr "Відповідальний"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/sidebar_view_toolbox/sidebar_view_toolbox.xml:0
+msgid "Restore Default View"
+msgstr "Відновити перегляд за замовчуванням"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Restrict a record to a specific company"
+msgstr "Обмежити запис певною компанією"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor.js:0
+msgid "Retention"
+msgstr "Утримання"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+msgid "Revoke"
+msgstr "Скасувати"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/pivot/pivot_editor_sidebar.xml:0
+msgid "Row grouping - First level"
+msgstr "Групування рядків - Перший рівень"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/pivot/pivot_editor_sidebar.xml:0
+msgid "Row grouping - Second level"
+msgstr "Групування рядків - Другий рівень"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_rule
+msgid "Rule"
+msgstr "Правило"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "Rules with existing entries cannot be deleted since it would delete existing approval entries. You should archive the rule instead."
+msgstr "Правила з наявними записами не можна видалити, оскільки це призведе до видалення наявних записів затвердження. Натомість потрібно заархівувати правило."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "Rules with existing entries cannot be modified since it would break existing approval entries. You should archive the rule and create a new one instead."
+msgstr "Правила з наявними записами не можна змінювати, оскільки це порушить наявні записи затвердження. Вам слід заархівувати правило та створити нове."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/xml_editor/xml_editor.xml:0
+msgid "Save"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Save."
+msgstr "Зберегти."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.xml:0
+msgid "Saved"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.xml:0
+msgid "Saving"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+#: code:addons/web_studio/static/src/studio_service.js:0
+msgid "Search"
+msgstr "Пошук"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.xml:0
+msgid "Search..."
+msgstr "Пошук..."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_renderer/form_editor_renderer_components.js:0
+msgid "Second Status"
+msgstr "Другий статус"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor_sidebar.xml:0
+msgid "Second dimension"
+msgstr "Другий вимір"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/new_button_box_dialog.xml:0
+msgid "Select a related field"
+msgstr "Виберіть відповідне поле"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/new_button_box_dialog.js:0
+msgid "Select a related field."
+msgstr "Виберіть відповідне поле."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+msgid "Select a related field:"
+msgstr "Виберіть відповідне поле"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/map_new_view_dialog.xml:0
+msgid "Select the contact field to use to get the coordinates of your records."
+msgstr "Виберіть контактне поле, щоб отримати координати ваших записів."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/field_configuration.xml:0
+msgid "Select the model in relation to this one"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/field_configuration.xml:0
+msgid "Select the reciprocal ManyToOne field"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Selection"
+msgstr "Вибір"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/chatter_properties/chatter_properties.xml:0
+msgid "Send a"
+msgstr "Відправити"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Send messages, log notes and schedule activities"
+msgstr "Надсилайте повідомлення, реєструйте нотатки та плануйте дії"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.js:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/search/search_editor.xml:0
+msgid "Separator"
+msgstr "Роздільник"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_ir_actions_server
+msgid "Server Action"
+msgstr "Дія на сервері"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.xml:0
+msgid "Set As Default"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/kanban/kanban_editor_sidebar/properties/kanban_cover_properties/kanban_cover_properties.xml:0
+msgid "Set Cover Image"
+msgstr "Встановіть обкладинку"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Set a price or cost on records"
+msgstr "Встановіть ціну або вартість на записах"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Set an <b>email alias</b>. Then, try to send an email to this address; it will create a document automatically for you. Pretty cool, huh?"
+msgstr "Встановіть <b>псевдонім електронної пошти</b>. Потім спробуйте надіслати електронний лист на цю адресу; він автоматично створить документ для вас. Круто, так?"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/button_properties.xml:0
+msgid "Set approval rules"
+msgstr "Встановити правила затвердження"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Set expression"
+msgstr "Встановити вираз"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/sidebar_view_toolbox/sidebar_view_toolbox.xml:0
+msgid "Show Invisible Elements"
+msgstr "Показати невидимі елементи"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_properties.js:0
+msgid "Show by default"
+msgstr "Показувати за замовчуванням"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Signature"
+msgstr "Підпис"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Size"
+msgstr "Розмір"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/button_properties/rainbow_effect.js:0
+msgid "Slow"
+msgstr "Повільно"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Small"
+msgstr "Малий"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.xml:0
+msgid "Sort By"
+msgstr "Сортувати за"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/map/map_editor_sidebar.xml:0
+msgid "Sort by"
+msgstr "Сортувати за"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor_sidebar.xml:0
+msgid "Sorting"
+msgstr "Сортування"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Source"
+msgstr "Джерело"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/selection_content_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+msgid "Specify all possible values"
+msgstr "Вкажіть усі можливі значення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor_sidebar.xml:0
+msgid "Stacked graph"
+msgstr "Набірний графік"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "Stage"
+msgstr "Стадія"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+msgid "Stage Name"
+msgstr "Назва стадії"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Stage and visualize records in a custom pipeline"
+msgstr "Поставте та візуалізуйте записи в спеціальному конвеєрі"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "Start Date"
+msgstr "Початкова дата"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/calendar/calendar_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+msgid "Start Date Field"
+msgstr "Поле початкової дати"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/new_view_dialogs/new_view_dialog.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/calendar/calendar_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor_sidebar.xml:0
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+msgid "Stop Date Field"
+msgstr "Поле кінцевої дати"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Striped"
+msgstr "Смугастий"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_ir_model_data__studio
+msgid "Studio"
+msgstr "Студія"
+
+#. module: web_studio
+#: model:ir.actions.client,name:web_studio.action_web_studio_app_creator
+msgid "Studio App Creator"
+msgstr "Творець додатку студії"
+
+#. module: web_studio
+#: model:ir.actions.act_window,name:web_studio.studio_approval_entry_action
+#: model:ir.ui.menu,name:web_studio.menu_studio_approval_entry
+msgid "Studio Approval Entries"
+msgstr "Записи затвердження студії"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_approval_entry
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_form_view
+msgid "Studio Approval Entry"
+msgstr "Запис затвердження студії"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_approval_request
+msgid "Studio Approval Request"
+msgstr ""
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_approval_rule
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_form_view
+msgid "Studio Approval Rule"
+msgstr "Правило затвердження студії"
+
+#. module: web_studio
+#: model:ir.actions.act_window,name:web_studio.studio_approval_rule_action
+msgid "Studio Approvals"
+msgstr "Затвердження студії"
+
+#. module: web_studio
+#: model:ir.ui.menu,name:web_studio.menu_studio_approval_rule
+msgid "Studio Approvals Rules"
+msgstr "Правила затвердження студії"
+
+#. module: web_studio
+#: model:ir.model.fields,field_description:web_studio.field_ir_ui_menu__is_studio_configuration
+msgid "Studio Configuration Menu"
+msgstr "Меню налаштування студії"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_customizations_filter
+msgid "Studio Customizations"
+msgstr "Налаштування студії"
+
+#. module: web_studio
+#: model:ir.model,name:web_studio.model_studio_mixin
+msgid "Studio Mixin"
+msgstr "Mixin Студії"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Subtotal & Total"
+msgstr "Підсумок та сума"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.xml:0
+msgid "Suggested features for your new model"
+msgstr "Запропоновані функції для вашої нової моделі"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_type_properties.js:0
+msgid "Sum"
+msgstr "Всього"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.js:0
+msgid "Sum of %s"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks_registry.js:0
+msgid "Table"
+msgstr "Таблиця"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Table style"
+msgstr "Стиль таблиці"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/form_editor_sidebar.js:0
+msgid "Tabs"
+msgstr "Вкладки"
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+msgid "Tags"
+msgstr "Мітки"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Taxes amount by groups"
+msgstr "Сума податків за групою"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_properties.xml:0
+msgid "Technical Name"
+msgstr "Технічна назва"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "Template '%s' not found"
+msgstr "Шаблон '%s' не знайдено"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.js:0
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Text"
+msgstr "Текст"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Text decoration"
+msgstr "Оформлення тексту"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Text in Cell"
+msgstr "Текст у клітинці"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+msgid "The fastest way to create a web application."
+msgstr "Найшвидший спосіб створити веб-додаток."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "The field %s does not exist."
+msgstr "Поле %s не існує."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/approval_hook.js:0
+msgid "The following approvals are missing:"
+msgstr "Наступні затвердження відсутні:"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_structures/view_structures.xml:0
+msgid "The following fields are currently not in the view."
+msgstr "Наступні поля наразі не відображаються."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "The icon has not a correct format"
+msgstr "Значок не має правильного формату"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "The icon is not linked to an attachment"
+msgstr "Значок не пов'язаний із вкладенням"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "The model %s does not exist."
+msgstr "Модель %s не існує."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "The model %s doesn't support adding fields."
+msgstr "Модель %s не підтримує додавання полів."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "The operation  type \"%s\" is not supported"
+msgstr "Тип операції \"%s\" не підтримується"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "The record field name is missing"
+msgstr "Назва поля запису відсутня"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid "The related field of a button has to be a many2one to %s."
+msgstr "Пов'язане поле кнопки повинно бути many2one до %s."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/studio_view.js:0
+#: code:addons/web_studio/static/src/legacy/js/common/abstract_editor_manager.js:0
+msgid "The requested change caused an error in the view. It could be because a field was deleted, but still used somewhere else."
+msgstr "Запитана зміна викликала помилку у вигляді даних. Це може бути тому, що поле було видалено, але все ще використовується де-небудь ще."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/main.py:0
+msgid ""
+"There are %s records using selection values not listed in those you are trying to save.\n"
+"Are you sure you want to remove the selection values of those records?"
+msgstr ""
+"Є записи %s що використовують значення вибору, не зазначені в тих, які ви намагаєтеся зберегти.\n"
+"Ви впевнені, що хочете перемістити значення вибору цих записів?"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "There is no method %s on the model %s (%s)"
+msgstr "Немає методу %s на моделі %s (%s)"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_renderer/form_editor_renderer_components.js:0
+msgid "Third Status"
+msgstr "Третій статус"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/navbar/navbar.js:0
+#: code:addons/web_studio/static/src/client_action/studio_home_menu/studio_home_menu.js:0
+msgid "This action is not editable by Studio"
+msgstr "Цю дію не можна редагувати в Студії"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid ""
+"This approval or the one you already submitted limits you to a single approval on this action.\n"
+"Another user is required to further approve this action."
+msgstr ""
+"Це схвалення або те, яке ви вже надіслали, обмежує вас одним схваленням цієї дії.\n"
+"Інший користувач має додатково схвалити цю дію."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+msgid "This field is placed after another element that is only displayed under certain conditions."
+msgstr "Це поле розміщується за іншим елементом, який відображається лише за певних умов."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/view_editor_model.js:0
+#: code:addons/web_studio/static/src/legacy/js/common/abstract_editor_manager.js:0
+msgid "This operation caused an error, probably because a xpath was broken"
+msgstr "Ця операція викликала помилку, ймовірно, тому що був зламаний xpath"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/report_editor.js:0
+msgid "This report could not be previewed or edited because it could not be rendered with this message: %s. This could be happening because this is a custom report type that needs custom data to be rendered and so is not editable by studio."
+msgstr "Не вдалося попередньо переглянути чи відредагувати цей звіт, оскільки його неможливо відобразити з цим повідомленням: %s. Це може статися, тому що це спеціальний тип звіту, який потребує відображення користувацьких даних, тому його не можна редагувати студією."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "This rule has already been approved/rejected."
+msgstr "Це правило вже підтверджене/відхилене."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/approval_infos.xml:0
+msgid "This rule limits this user to a single approval for this action."
+msgstr "Це правило обмежує цього користувача одним схваленням цієї дії."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Three Columns"
+msgstr "Три колонки"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor_sidebar.xml:0
+msgid "Timeline"
+msgstr "Хронологія"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.js:0
+msgid "Timeline views"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Title Block"
+msgstr "Блок заголовка"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "To <b>customize a field</b>, click on its <i>label</i>."
+msgstr "Щоб <b>налаштувати поле</b>, натисніть на цю <i>іконку</i>."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/report.py:0
+msgid "To edit this document please create a record first"
+msgstr "Щоб редагувати цей документ, спочатку створіть запис"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/systray_item/systray_item.xml:0
+msgid "Toggle Studio"
+msgstr "Переключити студію"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "Total"
+msgstr "Разом"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "Two Columns"
+msgstr "Дві колонки"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/graph/graph_editor_sidebar.xml:0
+msgid "Type"
+msgstr "Тип"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "Type down your notes here..."
+msgstr "Запишіть ваші примітки тут..."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Underline"
+msgstr "Підкреслений"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.xml:0
+msgid "Undo"
+msgstr "Скасувати дію"
+
+#. module: web_studio
+#: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_entry_search_view
+msgid "User"
+msgstr "Користувач"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "User assignment"
+msgstr "Призначення користувача"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/studio_approval.xml:0
+msgid "User avatar placeholder"
+msgstr "Заповнювач аватара користувача"
+
+#. module: web_studio
+#. odoo-python
+#. odoo-javascript
+#: code:addons/web_studio/models/ir_model.py:0
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/field_configuration/selection_content_dialog.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+msgid "Value"
+msgstr "Значення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/app_menu_editor/app_menu_editor.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/new_field_dialog.xml:0
+msgid "Value of list"
+msgstr "Значення списку"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor_sidebar.js:0
+#: model:ir.model,name:web_studio.model_ir_ui_view
+msgid "View"
+msgstr "Перегляд"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
+msgid "Views"
+msgstr "Переглядів"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Visible for"
+msgstr "Видимий для"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Visible if"
+msgstr "Видимий, якщо"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/approval/studio_approval.xml:0
+msgid "Waiting for approval"
+msgstr "Очікує затвердження"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Want more fun? Let’s create more <b>views</b>."
+msgstr "Хочете більше фану? Давайте створимо більше <b>переглядів</b>."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Want to customize the background? Let’s activate <b>Odoo Studio</b>."
+msgstr "Хочете налаштувати фон? Давайте активуємо <b>Студію Odoo</b>."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor.js:0
+msgid "Week"
+msgstr "Тиждень"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/gantt/gantt_editor_sidebar.xml:0
+msgid "Week Precision"
+msgstr "Точність тижня"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+msgid "Welcome to"
+msgstr "Ласкаво просимо до"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "What about a <b>Kanban view</b>?"
+msgstr "Як щодо <b>перегляду Канбану</b>?"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/list/list_editor_sidebar/list_editor_sidebar.xml:0
+msgid "When Creating Record"
+msgstr ""
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_studio_approval_rule__can_validate
+msgid "Whether the rule can be approved by the current user"
+msgstr "Чи може поточний користувач схвалити правило"
+
+#. module: web_studio
+#: model:ir.model.fields,help:web_studio.field_ir_model__abstract
+msgid "Whether this model is abstract"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/type_widget_properties.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Widget"
+msgstr "Віджет"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "Width"
+msgstr "Ширина"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/tours/web_studio.js:0
+msgid "Wow, nice! And I’m sure you can make it even better! Use this icon to open <b>Odoo Studio</b> and customize any screen."
+msgstr "Вау, супер! Ми впевнені, що ви зможете зробити це ще краще! Використовуйте цей значок, щоб відкрити<b>Студію Odoo</b> та відредагувати будь-який екран."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
+msgid "Write additional notes or comments"
+msgstr "Напишіть додаткові примітки або коментарі"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/sidebar_view_toolbox/sidebar_view_toolbox.xml:0
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+msgid "XML"
+msgstr "XML"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/cohort/cohort_editor.js:0
+msgid "Year"
+msgstr "Рік"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "You can only display a user or a partner"
+msgstr "Можна відображати лише користувача або партнера"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "You cannot cancel an approval you didn't set yourself."
+msgstr "Ви не можете скасувати затвердження, яке встановлювали не ви."
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/action_editor/action_editor.js:0
+msgid "You cannot deactivate this view as it is the last one active."
+msgstr "Ви не можете деактивувати цей перегляд, оскільки він є останнім активним."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/controllers/report.py:0
+msgid "You cannot modify this view, it is part of the generic layout"
+msgstr "Ви не можете змінити цей перегляд, він є частиною загального макета"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/kanban/kanban_editor_record.js:0
+msgid "You first need to create a many2many field in the form view."
+msgstr "Вам спочатку потрібно буде створити поле many2many у формі перегляду."
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/studio_approval.py:0
+msgid "You just like to break things, don't you?"
+msgstr "Ви просто любите ламати речі, чи не так?"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+msgid "You must have at least one option set"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+msgid "You must select a related field"
+msgstr "Ви повинні вибрати відповідне поле"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+msgid "You must select a relation"
+msgstr "Ви повинні вибрати відношення"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/sidebar_common.xml:0
+msgid "You need to be part of these groups to see this field:"
+msgstr "Ви повинні бути частиною цих груп, щоб побачити це поле:"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+msgid "You need to use a many2many or one2many field to display a list of items"
+msgstr "Вам необхідно використовувати поле many2many або one2many, щоби відобразити список елементів"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "bottom"
+msgstr "знизу"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/chatter_properties/chatter_properties.xml:0
+msgid "domain not defined"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/sidebar_properties_toolbox/sidebar_properties_toolbox.js:0
+msgid "dropdown"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/app_creator/app_creator.xml:0
+msgid "e.g. Real Estate"
+msgstr "наприклад, Нерухомість"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "left"
+msgstr "вліво"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/icon_creator/icon_creator.xml:0
+msgid "or"
+msgstr "або"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "px"
+msgstr "px"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "reset color"
+msgstr "скидання кольору"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "right"
+msgstr "праворуч"
+
+#. module: web_studio
+#. odoo-python
+#: code:addons/web_studio/models/ir_ui_view.py:0
+msgid "studio_approval attribute can only be set in form views"
+msgstr "атрибут studio_approval може бути встановлений лише у переглядах форми"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor_sidebar.xml:0
+msgid "tabsDisplay.new.title"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor_sidebar.xml:0
+msgid "tabsDisplay.properties.title"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/interactive_editor_sidebar.xml:0
+msgid "tabsDisplay.view.title"
+msgstr ""
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/editors/form/form_editor_sidebar/properties/chatter_properties/chatter_properties.xml:0
+msgid "test email"
+msgstr "тестова електронна пошта"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/legacy/xml/report_editor_sidebar.xml:0
+msgid "top"
+msgstr "зверху"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/icon_creator/icon_creator.xml:0
+msgid "upload it"
+msgstr "завантажити це"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/icon_creator/icon_creator.xml:0
+msgid "upload one"
+msgstr "завантажити"
+
+#. module: web_studio
+#. odoo-javascript
+#: code:addons/web_studio/static/src/client_action/view_editor/interactive_editor/properties/field_properties/field_properties.xml:0
+msgid "x_studio_"
+msgstr "x_studio_"

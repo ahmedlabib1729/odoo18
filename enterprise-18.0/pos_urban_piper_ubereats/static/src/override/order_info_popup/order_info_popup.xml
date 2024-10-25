@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="pos_urban_piper_ubereats.orderInfoPopup" t-inherit="pos_urban_piper.orderInfoPopup" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('order_otp')]" position="after">
+            <div t-if="this.getOrderDetails().ubereatsCode" class="col-md-6">
+                <div class="d-flex flex-column">
+                    <div class="text-muted fs-7">Uber Eats Code</div>
+                    <div><t t-esc="this.getOrderDetails().ubereatsCode"/></div>
+                </div>
+            </div>
+            <div t-if="this.getOrderDetails().riderMaskCode" class="col-md-6">
+                <div class="d-flex flex-column">
+                    <div class="text-muted fs-7">Uber Eats Rider Code</div>
+                    <div><t t-esc="this.getOrderDetails().riderMaskCode"/></div>
+                </div>
+            </div>
+        </xpath>
+    </t>
+</templates>

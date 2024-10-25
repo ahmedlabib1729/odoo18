@@ -1,0 +1,239 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_fr_fec_import
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.3alpha1+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-21 16:07+0000\n"
+"PO-Revision-Date: 2024-04-21 16:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid "%s not found"
+msgstr "%s non trouvé"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model,name:l10n_fr_fec_import.model_account_fec_import_wizard
+msgid "Account FEC import wizard"
+msgstr "Assistant d'Import Comptable FEC"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,help:l10n_fr_fec_import.field_account_fec_import_wizard__attachment_id
+msgid "Accounting FEC data file to be imported"
+msgstr "Fichier de données comptables FEC à importer"
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid "Accounting Settings"
+msgstr "Paramètres de Comptabilité"
+
+#. module: l10n_fr_fec_import
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec_import.fec_import_form
+msgid "Add a prefix to document:"
+msgstr ""
+
+#. module: l10n_fr_fec_import
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec_import.fec_import_form
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid "Cannot determine the encoding for the attached file."
+msgstr "Impossible de déterminer l'encodage du fichier fourni."
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid "Cannot determine the file format for the attached file."
+msgstr "Impossible de déterminer le format du fichier fourni."
+
+#. module: l10n_fr_fec_import
+#: model:ir.model,name:l10n_fr_fec_import.model_res_company
+msgid "Companies"
+msgstr "Sociétés"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,field_description:l10n_fr_fec_import.field_account_fec_import_wizard__company_id
+msgid "Company"
+msgstr "Société"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,help:l10n_fr_fec_import.field_account_fec_import_wizard__company_id
+msgid "Company used for the import"
+msgstr "Société utilisée pour l'import"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,field_description:l10n_fr_fec_import.field_account_fec_import_wizard__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,field_description:l10n_fr_fec_import.field_account_fec_import_wizard__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,field_description:l10n_fr_fec_import.field_account_fec_import_wizard__display_name
+msgid "Display Name"
+msgstr "Nom Affiché"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,field_description:l10n_fr_fec_import.field_account_fec_import_wizard__document_prefix
+msgid "Document prefix"
+msgstr ""
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,field_description:l10n_fr_fec_import.field_account_fec_import_wizard__duplicate_documents_handling
+msgid "Duplicate documents handling"
+msgstr ""
+
+#. module: l10n_fr_fec_import
+#: model:ir.actions.act_window,name:l10n_fr_fec_import.import_action
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec_import.fec_import_form
+msgid "FEC Import"
+msgstr "Import FEC"
+
+#. module: l10n_fr_fec_import
+#: model:ir.actions.server,name:l10n_fr_fec_import.fec_import_action
+msgid "FEC import"
+msgstr "Import FEC"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,field_description:l10n_fr_fec_import.field_account_fec_import_wizard__attachment_id
+msgid "File"
+msgstr "Fichier"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,field_description:l10n_fr_fec_import.field_account_fec_import_wizard__attachment_name
+msgid "Filename"
+msgstr "Non du fichier"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,field_description:l10n_fr_fec_import.field_account_fec_import_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields.selection,name:l10n_fr_fec_import.selection__account_fec_import_wizard__duplicate_documents_handling__ignore
+msgid "Ignore"
+msgstr ""
+
+#. module: l10n_fr_fec_import
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec_import.fec_import_form
+msgid "Import"
+msgstr ""
+
+#. module: l10n_fr_fec_import
+#. odoo-javascript
+#: code:addons/l10n_fr_fec_import/static/src/xml/l10n_fr_fec_import_button.xml:0
+msgid "Import FEC"
+msgstr ""
+
+#. module: l10n_fr_fec_import
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec_import.fec_import_form
+msgid "Import options"
+msgstr ""
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid "Import rounding difference"
+msgstr "Différence d'arrondi due à l'import"
+
+#. module: l10n_fr_fec_import
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec_import.fec_import_form
+msgid "Import your accounting data from FEC file formats.<br/>"
+msgstr ""
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,field_description:l10n_fr_fec_import.field_account_fec_import_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Mis à jour par"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields,field_description:l10n_fr_fec_import.field_account_fec_import_wizard__write_date
+msgid "Last Updated on"
+msgstr "Mis à jour le"
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid "Line %s has an invalid move name"
+msgstr "Le nom de pièce de la ligne %s n'est pas valide"
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid "Move with name '%s' has a balance of %s\n"
+msgstr "La pièce nommée '%s' a une balance de %s\n"
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid ""
+"Moves report incorrect balances:\n"
+"%s"
+msgstr ""
+"Certaines pièces on une balance incorrecte:\n"
+"%s"
+
+#. module: l10n_fr_fec_import
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec_import.fec_import_form
+msgid "Select File"
+msgstr "Choisir un fichier"
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid ""
+"Some lines do not have the same number of fields as the header.\n"
+"Please check the following line numbers:\n"
+"%s"
+msgstr ""
+"Certaines lignes contiennent un nombre de champs différent de l'en-tête.\n"
+"Veuillez vérifier les numéros de lignes suivants:\n"
+"%s"
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid ""
+"This file could not be recognised.\n"
+"Please check that it is encoded in utf-8 or iso8859_15"
+msgstr ""
+"Ce fichier n'a pas pu être reconnu.\n"
+"Veuillez vérifier qu'il est bien encodé en utf-8 ou iso8859_15"
+
+#. module: l10n_fr_fec_import
+#: model:ir.model.fields.selection,name:l10n_fr_fec_import.selection__account_fec_import_wizard__duplicate_documents_handling__update
+msgid "Update"
+msgstr ""
+
+#. module: l10n_fr_fec_import
+#: model_terms:ir.ui.view,arch_db:l10n_fr_fec_import.fec_import_form
+msgid "What should we do wtih duplicate document name:"
+msgstr ""
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid "You should install a Fiscal Localization first."
+msgstr "Vous devez d'abord installer une Localisation Fiscale."
+
+#. module: l10n_fr_fec_import
+#. odoo-python
+#: code:addons/l10n_fr_fec_import/wizard/import_wizard.py:0
+msgid "`prefix` cannot contain an underscore"
+msgstr "Le 'préfixe' ne peut pas contenir de tiret bas"

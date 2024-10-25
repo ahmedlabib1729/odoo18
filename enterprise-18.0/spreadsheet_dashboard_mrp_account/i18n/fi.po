@@ -1,0 +1,230 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet_dashboard_mrp_account
+# 
+# Translators:
+# Tiffany Chang, 2024
+# Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-25 09:28+0000\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2024\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Available time (min)"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Average Cost / Unit"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Average cost / unit"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Current"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "KPI"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_mrp_account.spreadsheet_dashboard_manufacturing
+msgid "Manufacturing"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Manufacturing Orders"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Manufacturing Orders by Operation Type"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Manufacturing Orders by Product"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Manufacturing Orders by Responsible"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Manufacturing orders"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Most Produced Products"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "OEE"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Operation Type"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Orders"
+msgstr "Tilaukset"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Period"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Previous"
+msgstr "Edellinen"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Product"
+msgstr "Tuote"
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Productive time (min)"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Qty Produced"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Quantity Produced"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Responsible"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Top Operation Types"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Top Products"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Top Responsibles"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Total quantity"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Total time (min)"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "Weekly Production"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "avg cost - current"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "avg cost - previous"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "oee - current"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "oee - previous"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "since last period"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "stats mo - current"
+msgstr ""
+
+#. module: spreadsheet_dashboard_mrp_account
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_mrp_account/data/files/manufacturing_dashboard.json:0
+msgid "stats mo - previous"
+msgstr ""

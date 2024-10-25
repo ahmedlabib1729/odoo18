@@ -1,0 +1,119 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet_dashboard_hr_payroll
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-12 10:57+0000\n"
+"PO-Revision-Date: 2024-01-30 15:14+0400\n"
+"Last-Translator: \n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Average Basic Wage"
+msgstr "Средняя базовая заработная плата"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Average Net Wage"
+msgstr "Средняя чистая заработная плата"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Avg Hours/Days"
+msgstr "Среднее количество часов/дней"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Companies"
+msgstr "Компании"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Employee Contract"
+msgstr "Договор с Сотрудником"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Employees"
+msgstr "Сотрудники"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "FTE"
+msgstr ""
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Job position"
+msgstr ""
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Paid Time Off"
+msgstr "Оплачиваемое отсутствие"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_hr_payroll.spreadsheet_dashboard_payroll
+msgid "Payroll"
+msgstr "Оплаты"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Payroll Analysis"
+msgstr "Анализ заработной платы"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Period"
+msgstr "Период"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Total Basic Wage"
+msgstr "Итого Основная заработная плата"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Total Net Wage"
+msgstr "Итого чистая заработная плата"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Unpaid Time off"
+msgstr "Неоплачиваемые отгулы"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Work Entries Analysis"
+msgstr "Анализ рабочих записей"
+
+#. module: spreadsheet_dashboard_hr_payroll
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_hr_payroll/data/files/payroll_dashboard.json:0
+msgid "Work Entries Analysis by Work Entry Type"
+msgstr "Анализ рабочих записей по типам рабочих записей"

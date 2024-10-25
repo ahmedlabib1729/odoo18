@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="pos_urban_piper.orderInfoPopup">
+        <Dialog size="'md'" title.translate="Details">
+            <t t-set="order" t-value="this.props.order"/>
+            <div t-if="this.deliveryRiderJson">
+                <div class="card rounded">
+                    <div class="card-header d-flex align-items-center">
+                        <i class="fa fa-motorcycle" aria-hidden="true"/>
+                        <h5 class="ms-2 mb-0">Delivery Person</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Name</div>
+                                    <div><t t-esc="this.deliveryRiderJson?.delivery_person_details?.name"/></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Phone</div>
+                                    <div>
+                                        <a t-attf-href="tel:#{this.deliveryRiderJson?.delivery_person_details?.phone}">
+                                            <t t-esc="this.deliveryRiderJson?.delivery_person_details?.phone"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Status</div>
+                                    <div><t t-esc="this.deliveryRiderJson?.current_state"/></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3">
+                <div class="card rounded">
+                    <div class="card-header d-flex align-items-center">
+                        <i class="fa fa-bookmark" aria-hidden="true"/>
+                        <h5 class="ms-2 mb-0">Order Info</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Status</div>
+                                    <div><t t-esc="this.props.order_status[order.delivery_status]"/></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Fulfilment Mode</div>
+                                    <div class="text-capitalize"><t t-esc="this.getOrderDetails().fulfilmentMode"/></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Channel</div>
+                                    <div>
+                                        <t t-esc="order.delivery_provider_id?.name"/> - <t t-esc="this.getOrderDetails().channelOtp"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Outlet</div>
+                                    <div><t t-esc="this.getOrderDetails().outletName"/></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Order Time</div>
+                                    <div><t t-esc="this.getTime(order.delivery_json?.order?.details?.created)"/></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Delivery Time/Time-Slot</div>
+                                    <div><t t-esc="this.getTime(order.delivery_json?.order?.details?.delivery_datetime)"/></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Order ID</div>
+                                    <div><t t-esc="order.delivery_identifier"/></div>
+                                </div>
+                            </div>
+                            <div t-if="this.getOrderDetails().orderOtp" class="order_otp col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Order OTP</div>
+                                    <div><t t-esc="this.getOrderDetails().orderOtp"/></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3">
+                <div class="card rounded">
+                    <div class="card-header d-flex align-items-center">
+                        <i class="fa fa-user" aria-hidden="true"/>
+                        <h5 class="ms-2 mb-0">Customer Info</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Customer Name</div>
+                                    <div><t t-esc="order.partner_id.name"/></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Delivery Address</div>
+                                    <div><t t-esc="order.partner_id.street"/>  <t t-esc="order.partner_id.city"/></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Customer Phone</div>
+                                    <div><a t-attf-href="tel:#{order.partner_id.phone}"><t t-esc="order.partner_id.phone"/></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex flex-column">
+                                    <div class="text-muted fs-7">Customer Email</div>
+                                    <div class="text-underline"><a t-attf-href="mailto:#{order.partner_id.email}"><t t-esc="order.partner_id.email"/></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <t t-set-slot="footer">
+                <button class="button btn btn-primary" t-on-click="onClose">
+                        Close
+                </button>
+            </t>
+        </Dialog>
+    </t>
+</templates>

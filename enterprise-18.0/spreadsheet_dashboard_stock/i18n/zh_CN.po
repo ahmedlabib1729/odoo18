@@ -1,0 +1,621 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet_dashboard_stock
+# 
+# Translators:
+# Wil Odoo, 2024
+# Chloe Wang, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-25 09:28+0000\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Chloe Wang, 2024\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Avg  Delay"
+msgstr "平均延迟"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Avg Cycle Time"
+msgstr "平均循环时间"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Bottom"
+msgstr "下边"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Categories"
+msgstr "电商品类"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Contact"
+msgstr "联系"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Count"
+msgstr "数量"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Count orders on time"
+msgstr "按时清点订单"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Current"
+msgstr "当前"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Current period"
+msgstr "当期"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Current period reworked"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Customer"
+msgstr "客户"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Cycle Time (Days)"
+msgstr "周期(天)"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Cycle time Current period"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Delay (Days)"
+msgstr "延迟（天）"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Deliveries next 7 days"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Demand"
+msgstr "需求"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Destination locations"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Dynamic fields for filters fill rate"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Dynamic fields for on time"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Fill rate"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Fill rate sort by "
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Filter"
+msgstr "筛选"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Internal lead time"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "KPI"
+msgstr "KPI"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Late Deliveries"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Late deliveries"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Late internal transfer"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Late internal transfers"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Late receipts"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Late receptions"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Moves lines count by operation"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "On Time"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "On Time delivery"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "On time"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "On time deliveries"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "On time rate"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "On time rate sort by "
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Open deliveries to date"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Open internal transfers to date"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Open late deliveries"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Open late internal transfers"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Open late receipts"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Open receptions to date"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Open transfers to date"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Operation"
+msgstr "作业"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Operation Type"
+msgstr "作业类型"
+
+#. module: spreadsheet_dashboard_stock
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_stock.spreadsheet_dashboard_inventory_flow
+msgid "Operation analysis"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Operation name"
+msgstr "作业名称"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Operations"
+msgstr "作业"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Orders count"
+msgstr "订单数量"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Period"
+msgstr "期间"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Pivot to choose"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Previous"
+msgstr "前一"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Previous period"
+msgstr "上期"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Previous period reworked"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Product"
+msgstr "产品"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Product Category"
+msgstr "产品类别"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Qty scrapped product by category"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Quantity"
+msgstr "数量"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Quantity of stock adjustments by category"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Receptions next 7 days"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Responsible"
+msgstr "负责人"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Row"
+msgstr "行"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Scheduled on"
+msgstr "安排"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Selected filter"
+msgstr "已选择筛选器"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Sort graph by"
+msgstr "图表排序依据"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Source location"
+msgstr "源位置"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Top"
+msgstr "顶部"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Top/Bottoms values"
+msgstr "顶部/底部值"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Total count"
+msgstr "总计数"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Total orders"
+msgstr "总订单"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Transfer"
+msgstr "转账"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Transfer - Late deliveries"
+msgstr "调拨 - 延迟交货"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Transfer - Late internal transfers"
+msgstr "调拨 - 延迟内部转账"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Transfer - Late receptions"
+msgstr "调拨 - 延迟收货"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Transfer to be assigned"
+msgstr "待分配调拨"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Transfers count by responsible and operation"
+msgstr "按责任和操作划分的调拨计数"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/warehouse_operations_dashboard.json:0
+msgid "Vendor"
+msgstr "供应商"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Warehouse"
+msgstr "仓库"
+
+#. module: spreadsheet_dashboard_stock
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_stock.spreadsheet_dashboard_warehouse_operations
+msgid "Warehouse Daily Operations"
+msgstr "仓库日常运作"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "Weekly Stock Moves Lines by operation"
+msgstr "每周库存按业务变动"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "[NO DELETE]  stock.report - by Is Late - sort top by count"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "[NO DELETE] stock.move -  by Product sort by Top Count"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "[NO DELETE] stock.move -  by Product sort by Top Demand"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "[NO DELETE] stock.move - by Product sort by Bottom Count"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "[NO DELETE] stock.move - by Product sort by Bottom Demand"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "[NO DELETE] stock.report - by Is Late - sort bottom by count"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "[NO DELETE] stock.report - by Is Late - sort bottom by quantity"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "[NO DELETE] stock.report - by Is Late - sort top by quantity"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "last period"
+msgstr "上期"
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "stock.move -  DC Operations"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "stock.move -  DC Operations (Comparison)"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "stock.move -  Fill rate"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "stock.move - Fill rate -  Previous"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "stock.move.line  -   by category - Previous"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "stock.move.line  -  Sent to scrap  by product category"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "stock.move.line  -  by category"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "stock.move.line  - Sent to scrap  by product category Previous"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "stock.report -  Cycles"
+msgstr ""
+
+#. module: spreadsheet_dashboard_stock
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_stock/data/files/operation_analysis_dashboard.json:0
+msgid "stock.report - Cycles - Previous"
+msgstr ""

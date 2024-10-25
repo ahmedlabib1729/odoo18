@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="pos_blackbox_be.ControlButtons" t-inherit="point_of_sale.ControlButtons" t-inherit-mode="extension">
+        <xpath expr="//t[@t-if='props.showRemainingButtons']/div/OrderlineNoteButton"  position="after">
+            <t t-if="pos.useBlackBoxBe()">
+                <span class="control-button order-printbill btn btn-secondary" t-att-class="{'disabled': state.buttonDisabled}" t-on-click="() => this.clickWorkButton()">
+                    <i class="fa fa-print me-1"></i>
+                    <span>Work
+                        <t t-if="state.status">Out</t>
+                        <t t-else="">In</t>
+                    </span>
+                </span>
+            </t>
+        </xpath>
+    </t>
+</templates>

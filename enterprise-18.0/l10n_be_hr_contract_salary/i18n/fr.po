@@ -1,0 +1,487 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_be_hr_contract_salary
+#
+# Translators:
+# Cécile Collart <cco@odoo.com>, 2023
+# Martin Trigaux, 2023
+# Jolien De Paepe, 2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-03 09:25+0000\n"
+"PO-Revision-Date: 2023-02-03 07:08+0000\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_thirteen_month
+msgid "13th Month"
+msgstr "13ème mois"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage.value,name:l10n_be_hr_contract_salary.l10n_be_representation_fees_value_2
+msgid "150 €"
+msgstr "150 €"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage.value,name:l10n_be_hr_contract_salary.l10n_be_mobile_value_1
+msgid "30.0 €"
+msgstr "30.0 €"
+
+#. module: l10n_be_hr_contract_salary
+#: model_terms:ir.ui.view,arch_db:l10n_be_hr_contract_salary.res_config_settings_view_form
+msgid "<span>days / year</span>"
+msgstr "<span>jours / an</span>"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_ambulatory_insurance
+msgid "Ambulatory Insurance"
+msgstr "Assurance ambulatoire"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__has_bicycle
+msgid "Bicycle to work"
+msgstr "Se rend au travail en vélo"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_generate_simulation_link__l10n_be_canteen_cost
+msgid "Canteen Cost"
+msgstr "Coût de la cantine"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_certificate_civil_engineer
+msgid "Civil Engineer"
+msgstr "Ingénieur civil"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract_salary_resume__code
+msgid "Code"
+msgstr "Code"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_yearly_commission
+msgid "Commissions"
+msgstr "Commissions"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model,name:l10n_be_hr_contract_salary.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de configuration"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_generate_simulation_link__contract_type_id
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__contract_type_id
+msgid "Contract Type"
+msgstr "Type de contrat"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_generate_simulation_link__car_id
+msgid "Default Vehicle"
+msgstr "Véhicule par défaut"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,help:l10n_be_hr_contract_salary.field_generate_simulation_link__car_id
+msgid "Default employee's company car. If left empty, the default value will be the employee's current car."
+msgstr "Voiture de société par défaut de l'employé. Si laissé vide, la valeur par défaut sera celle de la voiture actuelle de l'employé."
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_disabled
+msgid "Disabled"
+msgstr "Handicapé"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_disabled_children_bool
+msgid "Disabled Children"
+msgstr "Enfants handicapés"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_disabled_spouse_bool
+msgid "Disabled Spouse"
+msgstr "Conjoint handicapé"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_other_disabled_juniors_dependant
+msgid "Disabled people"
+msgstr "Personnes handicapées"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_other_disabled_senior_dependent
+msgid "Disabled seniors"
+msgstr "Séniors handicapés"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_marital_divorced
+msgid "Divorced"
+msgstr "Divorcé(e)"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_double_holiday
+msgid "Double Holiday Pay"
+msgstr "Double Pécule"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__double_holiday_wage
+msgid "Double Holiday Wage"
+msgstr "Solde du pécule de Double Vacances"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_driving_license
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__driving_license
+msgid "Driving License"
+msgstr "Permis de conduire"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_eco_voucher
+msgid "Eco Vouchers"
+msgstr "Eco-chèques"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model,name:l10n_be_hr_contract_salary.model_hr_employee
+msgid "Employee"
+msgstr "Employé"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model,name:l10n_be_hr_contract_salary.model_hr_contract
+msgid "Employee Contract"
+msgstr "Contrat de l'employé"
+
+#. module: l10n_be_hr_contract_salary
+#. odoo-python
+#: code:addons/l10n_be_hr_contract_salary/models/hr_payslip.py:0
+msgid "Employees without Intellectual Property"
+msgstr "Employés sans propriété intellectuelle"
+
+#. module: l10n_be_hr_contract_salary
+#. odoo-python
+#: code:addons/l10n_be_hr_contract_salary/models/hr_payslip.py:0
+msgid "Employees without Withholding Taxes Exemption"
+msgstr "Employés sans exonération du précompte professionnel"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_extra_time_off
+msgid "Extra Time Off"
+msgstr "Jours de congé supplémentaires"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_generate_simulation_link__new_car
+msgid "Force New Cars List"
+msgstr "Afficher la liste des véhicules neufs"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_fuel_card
+msgid "Fuel Card"
+msgstr "Carte Essence"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model,name:l10n_be_hr_contract_salary.model_generate_simulation_link
+msgid "Generate Simulation Link"
+msgstr "Générer le lien de simulation"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_group_insurance
+msgid "Group Insurance"
+msgstr "Assurance groupe"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_hospital_insurance
+msgid "Hospital Insurance"
+msgstr "Assurance Hospitalisation"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__id_card
+msgid "ID Card Copy"
+msgstr "Copie de la carte d'identité"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_id_card
+msgid "ID card copy (Both Sides)"
+msgstr "Copie de la carte d'identité (recto-verso)"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,help:l10n_be_hr_contract_salary.field_hr_job__l10n_be_contract_ip
+msgid "If checked, the job position is eligible to Intellectual Property"
+msgstr "Si coché, le poste est éligible à la propriété intellectuelle"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,help:l10n_be_hr_contract_salary.field_hr_job__l10n_be_contract_withholding_taxes_exemption
+msgid "If checked, the job position will grant a withholding taxes exemption to eligible employees"
+msgstr "Si coché, le poste accordera une exemption du précompte professionnel aux employés exigibles"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_intellectual_property
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_job__l10n_be_contract_ip
+msgid "Intellectual Property"
+msgstr "Propriété Intellectuelle"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_internet
+msgid "Internet Subscription"
+msgstr "Abonnement Internet"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_internet_invoice
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__internet_invoice
+msgid "Internet Subscription Invoice"
+msgstr "Facture d'abonnement internet"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.actions.server,name:l10n_be_hr_contract_salary.action_hr_job_payroll_configuration
+msgid "Job Configuration"
+msgstr "Configuration de l'offre d'emploi"
+
+#. module: l10n_be_hr_contract_salary
+#. odoo-python
+#: code:addons/l10n_be_hr_contract_salary/models/hr_job.py:0
+#: model:ir.model,name:l10n_be_hr_contract_salary.model_hr_job
+msgid "Job Position"
+msgstr "Poste Occupé"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.ui.menu,name:l10n_be_hr_contract_salary.menu_hr_job_positions
+msgid "Job Positions"
+msgstr "Postes de travail"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.ui.menu,name:l10n_be_hr_contract_salary.menu_hr_job_configuration
+msgid "Jobs"
+msgstr "Postes"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.job,name:l10n_be_hr_contract_salary.job_developer_belgium
+msgid "Junior Developer BE"
+msgstr "Développeur junior BE"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_km_home_work
+msgid "Km Home/Work"
+msgstr "Km Domicile - Bureau"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__l10n_be_bicyle_cost
+msgid "L10N Be Bicyle Cost"
+msgstr "L10N Be Coût du vélo"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_marital_cohabitant
+msgid "Legal Cohabitant"
+msgstr "Cohabitant légal"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_marital
+msgid "Marital Status"
+msgstr "État civil"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_marital_married
+msgid "Married"
+msgstr "Marié(e)"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_meal_vouchers
+msgid "Meal Vouchers"
+msgstr "Chèques Repas"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_mobile_invoice
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__mobile_invoice
+msgid "Mobile Subscription Invoice"
+msgstr "Facture d'abonnement téléphonique"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage.value,name:l10n_be_hr_contract_salary.l10n_be_ambulatory_insurance_value_0
+#: model:hr.contract.salary.advantage.value,name:l10n_be_hr_contract_salary.l10n_be_group_insurance_value_0
+#: model:hr.contract.salary.advantage.value,name:l10n_be_hr_contract_salary.l10n_be_hospital_insurance_value_0
+#: model:hr.contract.salary.advantage.value,name:l10n_be_hr_contract_salary.l10n_be_intellectual_property_value_0
+#: model:hr.contract.salary.advantage.value,name:l10n_be_hr_contract_salary.l10n_be_mobile_value_0
+msgid "No"
+msgstr "Non"
+
+#. module: l10n_be_hr_contract_salary
+#. odoo-python
+#: code:addons/l10n_be_hr_contract_salary/controllers/main.py:0
+msgid "No Category"
+msgstr "Aucune catégorie"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_children
+msgid "Number of Dependent Children"
+msgstr "Nombre d'enfants à charge"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_disabled_children_number
+msgid "Number of Disabled Children"
+msgstr "Hombre d'enfants handicapés"
+
+#. module: l10n_be_hr_contract_salary
+#. odoo-python
+#: code:addons/l10n_be_hr_contract_salary/controllers/main.py:0
+msgid "Oops"
+msgstr "Oups"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_other_dependent_people
+msgid "Other Dependent People"
+msgstr "Autres personnes à charge"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_res_config_settings__default_holidays
+msgid "Paid Time Off"
+msgstr "Congés payés"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model,name:l10n_be_hr_contract_salary.model_hr_payslip
+msgid "Pay Slip"
+msgstr "Feuille de paie"
+
+#. module: l10n_be_hr_contract_salary
+#: model_terms:ir.ui.view,arch_db:l10n_be_hr_contract_salary.hr_job_view_form
+msgid "Payroll"
+msgstr "Paie"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_lang
+msgid "Payroll Language"
+msgstr "Langue de la paie"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_other_juniors_dependent
+msgid "People"
+msgstr "Personne"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_mobile
+msgid "Phone Subscription"
+msgstr "Abonnement téléphonique"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_representation_fees
+msgid "Representation Fees"
+msgstr "Frais de Représentation"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__sim_card
+msgid "SIM Card Copy"
+msgstr "Copie de la carte SIM"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model,name:l10n_be_hr_contract_salary.model_hr_contract_salary_resume
+msgid "Salary Package Resume"
+msgstr "Résumé du package salarial"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_seniority
+msgid "Seniority at Hiring"
+msgstr "Ancienneté à l'embauche"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_other_senior_dependent
+msgid "Seniors"
+msgstr "Seniors"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_sim_card
+msgid "Sim Card Copy"
+msgstr "Copie de la carte SIM"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_marital_single
+msgid "Single"
+msgstr "Célibataire"
+
+#. module: l10n_be_hr_contract_salary
+#. odoo-python
+#: code:addons/l10n_be_hr_contract_salary/controllers/main.py:0
+msgid "Sorry, the selected car has been selected by someone else. Please refresh and try again."
+msgstr "Désolé, la voiture choisie a été sélectionnée par quelqu'un d'autre. Veuillez actualiser et réessayer."
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_spouse_birthdate
+msgid "Spouse Birthdate"
+msgstr "Date de naissance du conjoint"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_spouse_complete_name
+msgid "Spouse Name and First Name"
+msgstr "Nom et prénom du conjoint"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_spouse_fiscal_status
+msgid "Spouse Professional Situation"
+msgstr "Situation professionnelle du conjoint"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,help:l10n_be_hr_contract_salary.field_generate_simulation_link__new_car
+msgid "The employee will be able to choose a new car even if the maximum number of used cars available is reached."
+msgstr "L'employé pourra choisir une nouvelle voiture même si le nombre maximum de voitures d'occasion disponibles est atteint."
+
+#. module: l10n_be_hr_contract_salary
+#. odoo-python
+#: code:addons/l10n_be_hr_contract_salary/controllers/main.py:0
+msgid "This contract is a full time credit time... No simulation can be done for this type of contract as its wage is equal to 0."
+msgstr "Ce contrat est un crédit-temps à 100%. La simulation est impossible pour ce type de contrat dont la rémunération est égale à 0."
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_transport_company_car
+msgid "Transport"
+msgstr "Transport"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,help:l10n_be_hr_contract_salary.field_hr_contract__has_bicycle
+msgid "Use a bicycle as a transport mode to go to work"
+msgstr "Utiliser le vélo comme moyen de transport pour aller au travail"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_marital_widower
+msgid "Widower"
+msgstr "Veuf(ve)"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_high_income
+msgid "With High Income"
+msgstr "Avec revenus élevés"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_high_pension
+msgid "With High Pension"
+msgstr "Avec pensions élevées"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_low_income
+msgid "With Low Income"
+msgstr "Avec bas revenus"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_low_pension
+msgid "With Low Pension"
+msgstr "Avec basses pensions"
+
+#. module: l10n_be_hr_contract_salary
+#: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_job__l10n_be_contract_withholding_taxes_exemption
+msgid "Withholding Taxes Exemption"
+msgstr "Exonération du précompte professionnel"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_without_income
+msgid "Without Income"
+msgstr "Sans revenus"
+
+#. module: l10n_be_hr_contract_salary
+#: model:hr.contract.salary.advantage.value,name:l10n_be_hr_contract_salary.l10n_be_ambulatory_insurance_value_1
+#: model:hr.contract.salary.advantage.value,name:l10n_be_hr_contract_salary.l10n_be_hospital_insurance_value_1
+#: model:hr.contract.salary.advantage.value,name:l10n_be_hr_contract_salary.l10n_be_intellectual_property_value_1
+msgid "Yes"
+msgstr "Oui"
+
+#. module: l10n_be_hr_contract_salary
+#. odoo-python
+#: code:addons/l10n_be_hr_contract_salary/controllers/main.py:0
+msgid "• Available in %s"
+msgstr "Disponible dans %s"

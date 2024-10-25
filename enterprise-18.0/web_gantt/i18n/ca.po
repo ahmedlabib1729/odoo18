@@ -1,0 +1,266 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_gantt
+#
+# Translators:
+# M Palau <mpalau@tda.ad>, 2022
+# marcescu, 2022
+# jabelchi, 2022
+# Martin Trigaux, 2022
+# jabiri7, 2022
+# Manel Fernandez Ramirez <manelfera@outlook.com>, 2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-16 16:03+0000\n"
+"PO-Revision-Date: 2022-09-22 05:49+0000\n"
+"Last-Translator: Manel Fernandez Ramirez <manelfera@outlook.com>, 2023\n"
+"Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_controller.js:0
+msgid "Are you sure to delete this record?"
+msgstr "¿Està segur d'eliminar aquest registre?"
+
+#. module: web_gantt
+#: model:ir.model,name:web_gantt.model_base
+msgid "Base"
+msgstr "Base"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.xml:0
+msgid "Collapse rows"
+msgstr "Col·lapsar files"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_cell_buttons.xml:0
+#: code:addons/web_gantt/static/src/gantt_controller.js:0
+msgid "Create"
+msgstr "Crear"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Day"
+msgstr "Dia"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Edit"
+msgstr ""
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.xml:0
+msgid "Expand rows"
+msgstr "Expandeix les files"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_view.js:0
+msgid "Gantt"
+msgstr "Gràfic de Gantt"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Gantt View"
+msgstr "Vista Gantt"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Gantt child can only be field or template, got %s"
+msgstr "El fill de Gantt només pot ser un camp o una plantilla, té %s"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Gantt must have a 'date_start' attribute"
+msgstr "Gantt ha de tenir un atribut 'date_start'"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Gantt must have a 'date_stop' attribute"
+msgstr "Gantt ha de tenir un atribut \"date_stop\"."
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Gantt must have a 'dependency_inverted_field' attribute once the 'dependency_field' is specified"
+msgstr "Gantt ha de tenir un atribut 'dependency_inverted_field' una vegada s'hagi especificat 'dependency_field' "
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Gantt view can contain only one templates tag"
+msgstr "La vista de Gantt només pot contenir una etiqueta de plantilles"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_model.js:0
+msgid "Grouping by date is not supported"
+msgstr "L'agrupament per data no és compatible"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/models.py:0
+msgid "Insufficient fields for Gantt View!"
+msgstr "¡Camps insuficients per a la vista de Gantt!"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Invalid attributes (%s) in gantt view. Attributes must be in (%s)"
+msgstr "Atributs no vàlids (%s) a la vista gantt. Els atributs han d'estar a (%s)"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/ir_ui_view.py:0
+msgid "Invalid default_scale '%s' in gantt"
+msgstr "Escala_per defecte invàlida '%s'a gantt"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Month"
+msgstr "Mes"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_popover.xml:0
+msgid "Name"
+msgstr ""
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_controller.xml:0
+msgid "New"
+msgstr "Nou"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.xml:0
+msgid "Next"
+msgstr "Següent"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_controller.js:0
+msgid "Open"
+msgstr "Oberts"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Plan"
+msgstr "Pla"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_cell_buttons.xml:0
+msgid "Plan existing"
+msgstr "Pla existent"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.xml:0
+msgid "Previous"
+msgstr "Anterior"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/models.py:0
+msgid "Records that are in the past cannot be automatically rescheduled. They should be manually rescheduled instead."
+msgstr "Els registres anteriors no poden ser reprogramats automàticament. En canvi, han de ser reprogramats manualment."
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_popover.xml:0
+msgid "Start"
+msgstr ""
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_popover.xml:0
+msgid "Stop"
+msgstr ""
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.xml:0
+msgid "Today"
+msgstr "Avui"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+msgid "Total"
+msgstr ""
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_model.js:0
+msgid "Undefined %s"
+msgstr "No definit %s"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_renderer.js:0
+#: model:ir.model,name:web_gantt.model_ir_ui_view
+msgid "View"
+msgstr "Vista"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Week"
+msgstr "Setmana"
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "Year"
+msgstr "Any"
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/models.py:0
+msgid "You cannot reschedule %s towards %s."
+msgstr "No pots reprogramar %s cap a %s."
+
+#. module: web_gantt
+#. odoo-python
+#: code:addons/web_gantt/models/models.py:0
+msgid "You cannot reschedule tasks that do not follow a direct dependency path. Only the first task has been automatically rescheduled."
+msgstr "No pots reprogramar tasques que no segueixen una ruta de dependència directa. Només la primera tasca ha sigut reprogramada automàticament."
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "hours"
+msgstr ""
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "minutes"
+msgstr ""
+
+#. module: web_gantt
+#. odoo-javascript
+#: code:addons/web_gantt/static/src/gantt_arch_parser.js:0
+msgid "months"
+msgstr ""

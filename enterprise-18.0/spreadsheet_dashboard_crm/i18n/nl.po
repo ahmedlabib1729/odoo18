@@ -1,0 +1,532 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* spreadsheet_dashboard_crm
+# 
+# Translators:
+# Wil Odoo, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-25 09:28+0000\n"
+"PO-Revision-Date: 2024-09-25 09:44+0000\n"
+"Last-Translator: Wil Odoo, 2024\n"
+"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid " days"
+msgstr " dagen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "# Leads"
+msgstr "# Leads"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Average Deal Size"
+msgstr "Gem. deal grootte"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Average deal size"
+msgstr "Gemiddelde dealgrootte"
+
+#. module: spreadsheet_dashboard_crm
+#: model:spreadsheet.dashboard.group,name:spreadsheet_dashboard_crm.spreadsheet_dashboard_group_crm
+msgid "CRM"
+msgstr "CRM"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Campaign"
+msgstr "Campagne"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "City"
+msgstr "Plaats"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Close Rate"
+msgstr "Sluitingspercentage"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Close rate"
+msgstr "Sluitingspercentage"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Closed"
+msgstr "Gesloten"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Closed count"
+msgstr "Gesloten aantal"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Closed revenue"
+msgstr "Gesloten omzet"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Country"
+msgstr "Land"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Current"
+msgstr "Huidig"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Current period"
+msgstr "Huidige periode"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Days to Assign"
+msgstr "Dagen om toe te wijzen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Days to Win"
+msgstr "Dagen om te winnen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Days to assign"
+msgstr "Dagen toe te wijzen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Days to win"
+msgstr "Dagen om te winnen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Expected"
+msgstr "Verwacht"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Expected Closing"
+msgstr "Verwachte sluitingsdatum"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Expected count"
+msgstr "Verwacht aantal"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Expected revenue"
+msgstr "Verwachte omzet"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "KPI"
+msgstr "KPI"
+
+#. module: spreadsheet_dashboard_crm
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_crm.dashboard_leads
+msgid "Leads"
+msgstr "Leads"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Leads by Month"
+msgstr "Leads per maand"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Lost Reason"
+msgstr "Verliesreden"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Medium"
+msgstr "Medium"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Open opportunities"
+msgstr "Open kansen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Opportunity"
+msgstr "Verkoopkans"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Percentage closed"
+msgstr "Percentage gesloten"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Period"
+msgstr "Periode"
+
+#. module: spreadsheet_dashboard_crm
+#: model:spreadsheet.dashboard,name:spreadsheet_dashboard_crm.dashboard_pipeline
+msgid "Pipeline"
+msgstr "Pijplijn"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Pipeline Stages"
+msgstr "Pijplijnfases"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Previous"
+msgstr "Vorige"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Previous period"
+msgstr "Vorige periode"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Revenue"
+msgstr "Omzet"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Sales Team"
+msgstr "Verkoopteam"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Salesperson"
+msgstr "Verkoper"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Source"
+msgstr "Bron"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Stage"
+msgstr "Fase"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Success (%)"
+msgstr ""
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Tag"
+msgstr "Label"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Tags"
+msgstr "Labels"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "To close"
+msgstr "Sluiten"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Top Campaigns"
+msgstr "Beste campagnes"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Top Cities"
+msgstr "Beste steden"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Top Countries"
+msgstr "Beste landen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Top Lost Reasons"
+msgstr "Beste verliesredenen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Top Mediums"
+msgstr "Beste mediums"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Top Opportunities"
+msgstr "Beste verkoopkansen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Top Sales Teams"
+msgstr "Beste verkoopteams"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Top Salespeople"
+msgstr "Beste verkopers"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "Top Sources"
+msgstr "Beste bronnen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Top Tags"
+msgstr "Beste labels"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Total days to assign"
+msgstr "Totaal aantal dagen om toe te wijzen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Total days to win"
+msgstr "Totaal aantal dagen om te winnen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Total leads"
+msgstr "Totaal aantal leads"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "Won leads"
+msgstr "Gewonnen leads"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "average deal size - current"
+msgstr "gemiddelde dealgrootte - actueel"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "average deal size - previous"
+msgstr "gemiddelde dealgrootte - vorige"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "close rate - current"
+msgstr "afsluitratio - actueel"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "close rate - previous"
+msgstr "afsluitratio - vorige"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "days to - current"
+msgstr "dagen tot - actueel"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "days to - previous"
+msgstr "dagen tot - vorige"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "expected - current"
+msgstr "verwacht - actueel"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "expected - previous"
+msgstr "verwacht - vorige"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "last period"
+msgstr "laatste periode"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "list opps"
+msgstr "lijst kansen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "since last period"
+msgstr "sinds vorige periode"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "to campaign"
+msgstr "campagne voeren"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "to close"
+msgstr "sluiten"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "top cities"
+msgstr "beste steden"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "top countries"
+msgstr "beste landen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "top lost reasons"
+msgstr "beste verliesredenen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "top medium"
+msgstr "beste medium"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "top mediums"
+msgstr "beste mediums"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "top sales team"
+msgstr "beste verkoopteam"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "top salespeople"
+msgstr "beste verkopers"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "top salesperson"
+msgstr "beste verkoper"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "top source"
+msgstr "beste bron"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/pipeline_dashboard.json:0
+msgid "top sources"
+msgstr "beste bronnen"
+
+#. module: spreadsheet_dashboard_crm
+#. odoo-javascript
+#: code:addons/spreadsheet_dashboard_crm/data/files/leads_dashboard.json:0
+msgid "top tags"
+msgstr "beste labels"

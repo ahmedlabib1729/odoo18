@@ -1,0 +1,11 @@
+
+.btn-group {
+    > .btn, .btn-group {
+        // Overriding rules from bootstrap_review_backend to ensure active
+        // button will always be rendered on top of stacked kanban cards or
+        // document previews.
+        &:active, &.active, &:active:hover, &.active:hover {
+            z-index: 1000;
+        }
+    }
+}
